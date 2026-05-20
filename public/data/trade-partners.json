@@ -1,0 +1,320 @@
+[
+  {
+    "product": "LNG",
+    "trade": "EXPORTS",
+    "country": "JAPAN",
+    "totalValue": 25274794166
+  },
+  {
+    "product": "LNG",
+    "trade": "EXPORTS",
+    "country": "KOREA, REPUBLIC OF",
+    "totalValue": 17711768111
+  },
+  {
+    "product": "LNG",
+    "trade": "EXPORTS",
+    "country": "CHINA",
+    "totalValue": 15388120467
+  },
+  {
+    "product": "LNG",
+    "trade": "EXPORTS",
+    "country": "THAILAND",
+    "totalValue": 3410007261
+  },
+  {
+    "product": "LNG",
+    "trade": "EXPORTS",
+    "country": "TAIWAN, PROVINCE OF CHINA",
+    "totalValue": 817509013
+  },
+  {
+    "product": "LNG",
+    "trade": "EXPORTS",
+    "country": "PHILIPPINES",
+    "totalValue": 555931578
+  },
+  {
+    "product": "LNG",
+    "trade": "EXPORTS",
+    "country": "VIET NAM",
+    "totalValue": 397144704
+  },
+  {
+    "product": "LNG",
+    "trade": "EXPORTS",
+    "country": "SINGAPORE",
+    "totalValue": 315233501
+  },
+  {
+    "product": "LNG",
+    "trade": "EXPORTS",
+    "country": "MYANMAR",
+    "totalValue": 267036449
+  },
+  {
+    "product": "LNG",
+    "trade": "EXPORTS",
+    "country": "BANGLADESH",
+    "totalValue": 222466558
+  },
+  {
+    "product": "LNG",
+    "trade": "IMPORTS",
+    "country": "AUSTRALIA",
+    "totalValue": 7335150051
+  },
+  {
+    "product": "LNG",
+    "trade": "IMPORTS",
+    "country": "TRINIDAD AND TOBAGO",
+    "totalValue": 260246326
+  },
+  {
+    "product": "LNG",
+    "trade": "IMPORTS",
+    "country": "BRUNEI DARUSSALAM",
+    "totalValue": 116969
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "EXPORTS",
+    "country": "THAILAND",
+    "totalValue": 7170748732
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "EXPORTS",
+    "country": "AUSTRALIA",
+    "totalValue": 7150405303
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "EXPORTS",
+    "country": "JAPAN",
+    "totalValue": 4669452377
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "EXPORTS",
+    "country": "SINGAPORE",
+    "totalValue": 1070042346
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "EXPORTS",
+    "country": "INDIA",
+    "totalValue": 1054512991
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "EXPORTS",
+    "country": "BRUNEI DARUSSALAM",
+    "totalValue": 996462116
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "EXPORTS",
+    "country": "UNITED ARAB EMIRATES",
+    "totalValue": 720822693
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "EXPORTS",
+    "country": "CHINA",
+    "totalValue": 334485452
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "EXPORTS",
+    "country": "PHILIPPINES",
+    "totalValue": 205376721
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "EXPORTS",
+    "country": "INDONESIA",
+    "totalValue": 85146379
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "IMPORTS",
+    "country": "SAUDI ARABIA",
+    "totalValue": 19482112133
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "IMPORTS",
+    "country": "UNITED ARAB EMIRATES",
+    "totalValue": 13546148913
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "IMPORTS",
+    "country": "OMAN",
+    "totalValue": 5144350837
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "IMPORTS",
+    "country": "SUDAN",
+    "totalValue": 4761541699
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "IMPORTS",
+    "country": "UNITED STATES",
+    "totalValue": 3535641237
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "IMPORTS",
+    "country": "CAMEROON",
+    "totalValue": 2664458687
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "IMPORTS",
+    "country": "KUWAIT",
+    "totalValue": 2046964748
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "IMPORTS",
+    "country": "IRAQ",
+    "totalValue": 1351451357
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "IMPORTS",
+    "country": "THAILAND",
+    "totalValue": 1314889943
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "IMPORTS",
+    "country": "CONGO",
+    "totalValue": 1257331416
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "EXPORTS",
+    "country": "INDONESIA",
+    "totalValue": 27393869883
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "EXPORTS",
+    "country": "SINGAPORE",
+    "totalValue": 26283179131
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "EXPORTS",
+    "country": "AUSTRALIA",
+    "totalValue": 17890972398
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "EXPORTS",
+    "country": "BANGLADESH",
+    "totalValue": 6740733352
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "EXPORTS",
+    "country": "VIET NAM",
+    "totalValue": 6098506534
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "EXPORTS",
+    "country": "CHINA",
+    "totalValue": 5423437348
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "EXPORTS",
+    "country": "PHILIPPINES",
+    "totalValue": 4025666734
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "EXPORTS",
+    "country": "TAIWAN, PROVINCE OF CHINA",
+    "totalValue": 2469612208
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "EXPORTS",
+    "country": "KOREA, REPUBLIC OF",
+    "totalValue": 2217823184
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "EXPORTS",
+    "country": "CAMBODIA",
+    "totalValue": 2114881821
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "IMPORTS",
+    "country": "SINGAPORE",
+    "totalValue": 44551121660
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "IMPORTS",
+    "country": "KOREA, REPUBLIC OF",
+    "totalValue": 13541370302
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "IMPORTS",
+    "country": "CHINA",
+    "totalValue": 11269048405
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "IMPORTS",
+    "country": "INDIA",
+    "totalValue": 6950139125
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "IMPORTS",
+    "country": "TAIWAN, PROVINCE OF CHINA",
+    "totalValue": 5538916645
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "IMPORTS",
+    "country": "SAUDI ARABIA",
+    "totalValue": 5168247919
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "IMPORTS",
+    "country": "UNITED ARAB EMIRATES",
+    "totalValue": 4649751545
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "IMPORTS",
+    "country": "INDONESIA",
+    "totalValue": 4077589870
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "IMPORTS",
+    "country": "THAILAND",
+    "totalValue": 2407632825
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "IMPORTS",
+    "country": "JAPAN",
+    "totalValue": 2048107991
+  }
+]

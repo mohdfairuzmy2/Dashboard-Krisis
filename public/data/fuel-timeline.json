@@ -1,0 +1,32 @@
+[
+  {
+    "date": "2025-10-02",
+    "label": "BUDI MADANI Launches",
+    "type": "policy",
+    "emoji": "🛡️"
+  },
+  {
+    "date": "2026-03-05",
+    "label": "Iran-US Crisis Begins",
+    "type": "crisis",
+    "emoji": "⚠️"
+  },
+  {
+    "date": "2026-03-12",
+    "label": "Hormuz Closure — Prices Surge",
+    "type": "crisis",
+    "emoji": "🔥"
+  },
+  {
+    "date": "2026-03-19",
+    "label": "RON97 Crosses RM4.55",
+    "type": "price",
+    "emoji": "📈"
+  },
+  {
+    "date": "2026-03-26",
+    "label": "RON97 Hits RM5.15 — Record",
+    "type": "price",
+    "emoji": "🚨"
+  }
+]

@@ -1,0 +1,1842 @@
+[
+  {
+    "product": "LNG",
+    "trade": "EXPORTS",
+    "month": "Jan-25",
+    "value": 5245291260,
+    "quantity": 2494476667,
+    "aup": 2.1028
+  },
+  {
+    "product": "LNG",
+    "trade": "EXPORTS",
+    "month": "Feb-25",
+    "value": 4766133137,
+    "quantity": 2332456747,
+    "aup": 2.0434
+  },
+  {
+    "product": "LNG",
+    "trade": "EXPORTS",
+    "month": "Mar-25",
+    "value": 5472030434,
+    "quantity": 2636869356,
+    "aup": 2.0752
+  },
+  {
+    "product": "LNG",
+    "trade": "EXPORTS",
+    "month": "Apr-25",
+    "value": 4569992121,
+    "quantity": 2237624146,
+    "aup": 2.0423
+  },
+  {
+    "product": "LNG",
+    "trade": "EXPORTS",
+    "month": "May-25",
+    "value": 2388065566,
+    "quantity": 1217686351,
+    "aup": 1.9611
+  },
+  {
+    "product": "LNG",
+    "trade": "EXPORTS",
+    "month": "Jun-25",
+    "value": 3416044983,
+    "quantity": 1783706722,
+    "aup": 1.9151
+  },
+  {
+    "product": "LNG",
+    "trade": "EXPORTS",
+    "month": "Jul-25",
+    "value": 4423736415,
+    "quantity": 2314901337,
+    "aup": 1.911
+  },
+  {
+    "product": "LNG",
+    "trade": "EXPORTS",
+    "month": "Aug-25",
+    "value": 4056818456,
+    "quantity": 2145351799,
+    "aup": 1.891
+  },
+  {
+    "product": "LNG",
+    "trade": "EXPORTS",
+    "month": "Sep-25",
+    "value": 3701229305,
+    "quantity": 2060028720,
+    "aup": 1.7967
+  },
+  {
+    "product": "LNG",
+    "trade": "EXPORTS",
+    "month": "Oct-25",
+    "value": 4346691853,
+    "quantity": 2428782500,
+    "aup": 1.7897
+  },
+  {
+    "product": "LNG",
+    "trade": "EXPORTS",
+    "month": "Nov-25",
+    "value": 4768385242,
+    "quantity": 2790454023,
+    "aup": 1.7088
+  },
+  {
+    "product": "LNG",
+    "trade": "EXPORTS",
+    "month": "Dec-25",
+    "value": 4479475105,
+    "quantity": 2588980019,
+    "aup": 1.7302
+  },
+  {
+    "product": "LNG",
+    "trade": "EXPORTS",
+    "month": "Jan-26",
+    "value": 4973834171,
+    "quantity": 2818769576,
+    "aup": 1.7645
+  },
+  {
+    "product": "LNG",
+    "trade": "EXPORTS",
+    "month": "Feb-26",
+    "value": 3463313463,
+    "quantity": 2107447000,
+    "aup": 1.6434
+  },
+  {
+    "product": "LNG",
+    "trade": "EXPORTS",
+    "month": "Mar-26",
+    "value": 4512046203,
+    "quantity": 2718221205,
+    "aup": 1.6599
+  },
+  {
+    "product": "LNG",
+    "trade": "IMPORTS",
+    "month": "Jan-25",
+    "value": 357813489,
+    "quantity": 120211583,
+    "aup": 2.9765
+  },
+  {
+    "product": "LNG",
+    "trade": "IMPORTS",
+    "month": "Feb-25",
+    "value": 1064116054,
+    "quantity": 370268850,
+    "aup": 2.8739
+  },
+  {
+    "product": "LNG",
+    "trade": "IMPORTS",
+    "month": "Mar-25",
+    "value": 480876429,
+    "quantity": 176444484,
+    "aup": 2.7254
+  },
+  {
+    "product": "LNG",
+    "trade": "IMPORTS",
+    "month": "Apr-25",
+    "value": 310955538,
+    "quantity": 125717803,
+    "aup": 2.4734
+  },
+  {
+    "product": "LNG",
+    "trade": "IMPORTS",
+    "month": "May-25",
+    "value": 510891905,
+    "quantity": 193162422,
+    "aup": 2.6449
+  },
+  {
+    "product": "LNG",
+    "trade": "IMPORTS",
+    "month": "Jun-25",
+    "value": 654028809,
+    "quantity": 254055015,
+    "aup": 2.5744
+  },
+  {
+    "product": "LNG",
+    "trade": "IMPORTS",
+    "month": "Jul-25",
+    "value": 509167236,
+    "quantity": 189200254,
+    "aup": 2.6912
+  },
+  {
+    "product": "LNG",
+    "trade": "IMPORTS",
+    "month": "Aug-25",
+    "value": 156432602,
+    "quantity": 59579527,
+    "aup": 2.6256
+  },
+  {
+    "product": "LNG",
+    "trade": "IMPORTS",
+    "month": "Sep-25",
+    "value": 627211788,
+    "quantity": 252626394,
+    "aup": 2.4828
+  },
+  {
+    "product": "LNG",
+    "trade": "IMPORTS",
+    "month": "Oct-25",
+    "value": 582720097,
+    "quantity": 245241140,
+    "aup": 2.3761
+  },
+  {
+    "product": "LNG",
+    "trade": "IMPORTS",
+    "month": "Nov-25",
+    "value": 445596428,
+    "quantity": 186193438,
+    "aup": 2.3932
+  },
+  {
+    "product": "LNG",
+    "trade": "IMPORTS",
+    "month": "Dec-25",
+    "value": 573730733,
+    "quantity": 242412274,
+    "aup": 2.3668
+  },
+  {
+    "product": "LNG",
+    "trade": "IMPORTS",
+    "month": "Jan-26",
+    "value": 457650252,
+    "quantity": 186755629,
+    "aup": 2.4505
+  },
+  {
+    "product": "LNG",
+    "trade": "IMPORTS",
+    "month": "Feb-26",
+    "value": 441679578,
+    "quantity": 188372829,
+    "aup": 2.3447
+  },
+  {
+    "product": "LNG",
+    "trade": "IMPORTS",
+    "month": "Mar-26",
+    "value": 422642408,
+    "quantity": 189926288,
+    "aup": 2.2253
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "EXPORTS",
+    "month": "Jan-25",
+    "value": 2056177049,
+    "quantity": 773195985,
+    "aup": 2.6593
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "EXPORTS",
+    "month": "Feb-25",
+    "value": 1136684900,
+    "quantity": 402568898,
+    "aup": 2.8236
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "EXPORTS",
+    "month": "Mar-25",
+    "value": 1618787536,
+    "quantity": 581545289,
+    "aup": 2.7836
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "EXPORTS",
+    "month": "Apr-25",
+    "value": 2308886570,
+    "quantity": 894458859,
+    "aup": 2.5813
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "EXPORTS",
+    "month": "May-25",
+    "value": 1807140090,
+    "quantity": 752158243,
+    "aup": 2.4026
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "EXPORTS",
+    "month": "Jun-25",
+    "value": 1058310404,
+    "quantity": 423661476,
+    "aup": 2.498
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "EXPORTS",
+    "month": "Jul-25",
+    "value": 1905690195,
+    "quantity": 823139148,
+    "aup": 2.3151
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "EXPORTS",
+    "month": "Aug-25",
+    "value": 1223560488,
+    "quantity": 518010087,
+    "aup": 2.362
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "EXPORTS",
+    "month": "Sep-25",
+    "value": 1431053842,
+    "quantity": 595544012,
+    "aup": 2.4029
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "EXPORTS",
+    "month": "Oct-25",
+    "value": 1710133964,
+    "quantity": 740140452,
+    "aup": 2.3106
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "EXPORTS",
+    "month": "Nov-25",
+    "value": 1734901343,
+    "quantity": 797810416,
+    "aup": 2.1746
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "EXPORTS",
+    "month": "Dec-25",
+    "value": 1426651908,
+    "quantity": 657917255,
+    "aup": 2.1684
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "EXPORTS",
+    "month": "Jan-26",
+    "value": 1255010075,
+    "quantity": 576925268,
+    "aup": 2.1753
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "EXPORTS",
+    "month": "Feb-26",
+    "value": 1210643356,
+    "quantity": 559937061,
+    "aup": 2.1621
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "EXPORTS",
+    "month": "Mar-26",
+    "value": 1632399487,
+    "quantity": 670146206,
+    "aup": 2.4359
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "IMPORTS",
+    "month": "Jan-25",
+    "value": 4181846562,
+    "quantity": 1672710489,
+    "aup": 2.5
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "IMPORTS",
+    "month": "Feb-25",
+    "value": 4972627392,
+    "quantity": 1842060118,
+    "aup": 2.6995
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "IMPORTS",
+    "month": "Mar-25",
+    "value": 4351475683,
+    "quantity": 1654224485,
+    "aup": 2.6305
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "IMPORTS",
+    "month": "Apr-25",
+    "value": 3541502301,
+    "quantity": 1432369379,
+    "aup": 2.4725
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "IMPORTS",
+    "month": "May-25",
+    "value": 4743629057,
+    "quantity": 2041983291,
+    "aup": 2.323
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "IMPORTS",
+    "month": "Jun-25",
+    "value": 4485023826,
+    "quantity": 2033252589,
+    "aup": 2.2058
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "IMPORTS",
+    "month": "Jul-25",
+    "value": 5623377192,
+    "quantity": 2498933097,
+    "aup": 2.2503
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "IMPORTS",
+    "month": "Aug-25",
+    "value": 3588514463,
+    "quantity": 1557298215,
+    "aup": 2.3043
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "IMPORTS",
+    "month": "Sep-25",
+    "value": 6663619006,
+    "quantity": 2869852485,
+    "aup": 2.3219
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "IMPORTS",
+    "month": "Oct-25",
+    "value": 4624680016,
+    "quantity": 2011479956,
+    "aup": 2.2991
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "IMPORTS",
+    "month": "Nov-25",
+    "value": 4521559774,
+    "quantity": 2001337495,
+    "aup": 2.2593
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "IMPORTS",
+    "month": "Dec-25",
+    "value": 2259030209,
+    "quantity": 1076003002,
+    "aup": 2.0995
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "IMPORTS",
+    "month": "Jan-26",
+    "value": 3910012952,
+    "quantity": 1885929494,
+    "aup": 2.0733
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "IMPORTS",
+    "month": "Feb-26",
+    "value": 1679622306,
+    "quantity": 778249737,
+    "aup": 2.1582
+  },
+  {
+    "product": "CRUDE OIL",
+    "trade": "IMPORTS",
+    "month": "Mar-26",
+    "value": 1715156310,
+    "quantity": 737183802,
+    "aup": 2.3266
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "EXPORTS",
+    "month": "Jan-25",
+    "value": 9045412431,
+    "quantity": 3274445148,
+    "aup": 2.7624
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "EXPORTS",
+    "month": "Feb-25",
+    "value": 8562332865,
+    "quantity": 2896153394,
+    "aup": 2.9565
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "EXPORTS",
+    "month": "Mar-25",
+    "value": 6668085487,
+    "quantity": 2374718416,
+    "aup": 2.8079
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "EXPORTS",
+    "month": "Apr-25",
+    "value": 7708220707,
+    "quantity": 2799726113,
+    "aup": 2.7532
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "EXPORTS",
+    "month": "May-25",
+    "value": 7182204549,
+    "quantity": 2802878432,
+    "aup": 2.5624
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "EXPORTS",
+    "month": "Jun-25",
+    "value": 7807905937,
+    "quantity": 3083827187,
+    "aup": 2.5319
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "EXPORTS",
+    "month": "Jul-25",
+    "value": 7347337836,
+    "quantity": 2855022389,
+    "aup": 2.5735
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "EXPORTS",
+    "month": "Aug-25",
+    "value": 8413718585,
+    "quantity": 3272765201,
+    "aup": 2.5708
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "EXPORTS",
+    "month": "Sep-25",
+    "value": 8424424434,
+    "quantity": 3331012921,
+    "aup": 2.5291
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "EXPORTS",
+    "month": "Oct-25",
+    "value": 8186793530,
+    "quantity": 3294630029,
+    "aup": 2.4849
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "EXPORTS",
+    "month": "Nov-25",
+    "value": 8403635143,
+    "quantity": 3429515836,
+    "aup": 2.4504
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "EXPORTS",
+    "month": "Dec-25",
+    "value": 7353781608,
+    "quantity": 3033723807,
+    "aup": 2.424
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "EXPORTS",
+    "month": "Jan-26",
+    "value": 7545770612,
+    "quantity": 3190659595,
+    "aup": 2.365
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "EXPORTS",
+    "month": "Feb-26",
+    "value": 6487218758,
+    "quantity": 2757461593,
+    "aup": 2.3526
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "EXPORTS",
+    "month": "Mar-26",
+    "value": 8832612023,
+    "quantity": 2814037226.3002043,
+    "aup": 3.1388
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "IMPORTS",
+    "month": "Jan-25",
+    "value": 8413231059,
+    "quantity": 2903387839,
+    "aup": 2.8977
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "IMPORTS",
+    "month": "Feb-25",
+    "value": 7660374701,
+    "quantity": 2413134579,
+    "aup": 3.1744
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "IMPORTS",
+    "month": "Mar-25",
+    "value": 7127585933,
+    "quantity": 2388069170,
+    "aup": 2.9847
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "IMPORTS",
+    "month": "Apr-25",
+    "value": 7178110671,
+    "quantity": 2548681327,
+    "aup": 2.8164
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "IMPORTS",
+    "month": "May-25",
+    "value": 6728163196,
+    "quantity": 2469707574,
+    "aup": 2.7243
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "IMPORTS",
+    "month": "Jun-25",
+    "value": 8079911801,
+    "quantity": 3040624361,
+    "aup": 2.6573
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "IMPORTS",
+    "month": "Jul-25",
+    "value": 8539785364,
+    "quantity": 3101211785,
+    "aup": 2.7537
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "IMPORTS",
+    "month": "Aug-25",
+    "value": 7895020015,
+    "quantity": 3041747987,
+    "aup": 2.5956
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "IMPORTS",
+    "month": "Sep-25",
+    "value": 7636640133,
+    "quantity": 2899156971,
+    "aup": 2.6341
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "IMPORTS",
+    "month": "Oct-25",
+    "value": 7255457699,
+    "quantity": 2681305262,
+    "aup": 2.7059
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "IMPORTS",
+    "month": "Nov-25",
+    "value": 7268587245,
+    "quantity": 2841849980,
+    "aup": 2.5577
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "IMPORTS",
+    "month": "Dec-25",
+    "value": 8286088291,
+    "quantity": 3261992179,
+    "aup": 2.5402
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "IMPORTS",
+    "month": "Jan-26",
+    "value": 7886387972,
+    "quantity": 3224941990,
+    "aup": 2.4454
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "IMPORTS",
+    "month": "Feb-26",
+    "value": 6862053987,
+    "quantity": 2929859468,
+    "aup": 2.3421
+  },
+  {
+    "product": "REFINED PETROLEUM",
+    "trade": "IMPORTS",
+    "month": "Mar-26",
+    "value": 7593076303,
+    "quantity": 2631841991,
+    "aup": 2.8851
+  },
+  {
+    "product": "COAL",
+    "trade": "EXPORTS",
+    "month": "Jan-25",
+    "value": 818032,
+    "quantity": 521541.5,
+    "aup": 1.5685
+  },
+  {
+    "product": "COAL",
+    "trade": "EXPORTS",
+    "month": "Feb-25",
+    "value": 30348,
+    "quantity": 36752,
+    "aup": 0.8258
+  },
+  {
+    "product": "COAL",
+    "trade": "EXPORTS",
+    "month": "Mar-25",
+    "value": 1031039,
+    "quantity": 475510.45,
+    "aup": 2.1683
+  },
+  {
+    "product": "COAL",
+    "trade": "EXPORTS",
+    "month": "Apr-25",
+    "value": 973903,
+    "quantity": 892377.6,
+    "aup": 1.0914
+  },
+  {
+    "product": "COAL",
+    "trade": "EXPORTS",
+    "month": "May-25",
+    "value": 1142149,
+    "quantity": 634033.9,
+    "aup": 1.8014
+  },
+  {
+    "product": "COAL",
+    "trade": "EXPORTS",
+    "month": "Jun-25",
+    "value": 656262,
+    "quantity": 657501,
+    "aup": 0.9981
+  },
+  {
+    "product": "COAL",
+    "trade": "EXPORTS",
+    "month": "Jul-25",
+    "value": 540213,
+    "quantity": 453453.5,
+    "aup": 1.1913
+  },
+  {
+    "product": "COAL",
+    "trade": "EXPORTS",
+    "month": "Aug-25",
+    "value": 416743,
+    "quantity": 312452,
+    "aup": 1.3338
+  },
+  {
+    "product": "COAL",
+    "trade": "EXPORTS",
+    "month": "Sep-25",
+    "value": 415685,
+    "quantity": 286809,
+    "aup": 1.4493
+  },
+  {
+    "product": "COAL",
+    "trade": "EXPORTS",
+    "month": "Oct-25",
+    "value": 486905,
+    "quantity": 490043,
+    "aup": 0.9936
+  },
+  {
+    "product": "COAL",
+    "trade": "EXPORTS",
+    "month": "Nov-25",
+    "value": 322607,
+    "quantity": 249881,
+    "aup": 1.291
+  },
+  {
+    "product": "COAL",
+    "trade": "EXPORTS",
+    "month": "Dec-25",
+    "value": 330551,
+    "quantity": 331859.5,
+    "aup": 0.9961
+  },
+  {
+    "product": "COAL",
+    "trade": "EXPORTS",
+    "month": "Jan-26",
+    "value": 234895,
+    "quantity": 257962.7,
+    "aup": 0.9106
+  },
+  {
+    "product": "COAL",
+    "trade": "EXPORTS",
+    "month": "Feb-26",
+    "value": 324304,
+    "quantity": 311707.5,
+    "aup": 1.0404
+  },
+  {
+    "product": "COAL",
+    "trade": "IMPORTS",
+    "month": "Jan-25",
+    "value": 1526583196,
+    "quantity": 2995995549.38,
+    "aup": 0.5095
+  },
+  {
+    "product": "COAL",
+    "trade": "IMPORTS",
+    "month": "Feb-25",
+    "value": 1568795003,
+    "quantity": 3384417777.4,
+    "aup": 0.4635
+  },
+  {
+    "product": "COAL",
+    "trade": "IMPORTS",
+    "month": "Mar-25",
+    "value": 1528269139,
+    "quantity": 3290760572.6,
+    "aup": 0.4644
+  },
+  {
+    "product": "COAL",
+    "trade": "IMPORTS",
+    "month": "Apr-25",
+    "value": 1397021735,
+    "quantity": 2884943362.31,
+    "aup": 0.4842
+  },
+  {
+    "product": "COAL",
+    "trade": "IMPORTS",
+    "month": "May-25",
+    "value": 1655966568,
+    "quantity": 3687660662.8,
+    "aup": 0.4491
+  },
+  {
+    "product": "COAL",
+    "trade": "IMPORTS",
+    "month": "Jun-25",
+    "value": 1896740917,
+    "quantity": 4418089860.9,
+    "aup": 0.4293
+  },
+  {
+    "product": "COAL",
+    "trade": "IMPORTS",
+    "month": "Jul-25",
+    "value": 960913551,
+    "quantity": 2132952593.01,
+    "aup": 0.4505
+  },
+  {
+    "product": "COAL",
+    "trade": "IMPORTS",
+    "month": "Aug-25",
+    "value": 1176083236,
+    "quantity": 2847061049.6,
+    "aup": 0.4131
+  },
+  {
+    "product": "COAL",
+    "trade": "IMPORTS",
+    "month": "Sep-25",
+    "value": 1290225520,
+    "quantity": 3002751170.6,
+    "aup": 0.4297
+  },
+  {
+    "product": "COAL",
+    "trade": "IMPORTS",
+    "month": "Oct-25",
+    "value": 1617399459,
+    "quantity": 4165347582.16,
+    "aup": 0.3883
+  },
+  {
+    "product": "COAL",
+    "trade": "IMPORTS",
+    "month": "Nov-25",
+    "value": 1341801101,
+    "quantity": 2957912704.5,
+    "aup": 0.4536
+  },
+  {
+    "product": "COAL",
+    "trade": "IMPORTS",
+    "month": "Dec-25",
+    "value": 1625725504,
+    "quantity": 3775509969.2,
+    "aup": 0.4306
+  },
+  {
+    "product": "COAL",
+    "trade": "IMPORTS",
+    "month": "Jan-26",
+    "value": 1114651210,
+    "quantity": 2519843379.15,
+    "aup": 0.4423
+  },
+  {
+    "product": "COAL",
+    "trade": "IMPORTS",
+    "month": "Feb-26",
+    "value": 779598853,
+    "quantity": 2015035983.9,
+    "aup": 0.3869
+  },
+  {
+    "product": "Crude Oil",
+    "trade": "EXPORTS",
+    "month": "Jan-25",
+    "value": 216519624,
+    "quantity": 7849243,
+    "aup": 27.5848
+  },
+  {
+    "product": "Crude Oil",
+    "trade": "EXPORTS",
+    "month": "Feb-25",
+    "value": 255205623,
+    "quantity": 10895487,
+    "aup": 23.4231
+  },
+  {
+    "product": "Crude Oil",
+    "trade": "EXPORTS",
+    "month": "Mar-25",
+    "value": 422443888,
+    "quantity": 8869764,
+    "aup": 47.6274
+  },
+  {
+    "product": "Crude Oil",
+    "trade": "EXPORTS",
+    "month": "Apr-25",
+    "value": 242572093,
+    "quantity": 7224955,
+    "aup": 33.5742
+  },
+  {
+    "product": "Crude Oil",
+    "trade": "EXPORTS",
+    "month": "May-25",
+    "value": 264214657,
+    "quantity": 9967873,
+    "aup": 26.5066
+  },
+  {
+    "product": "Crude Oil",
+    "trade": "EXPORTS",
+    "month": "Jun-25",
+    "value": 256754495,
+    "quantity": 6932372,
+    "aup": 37.037
+  },
+  {
+    "product": "Crude Oil",
+    "trade": "EXPORTS",
+    "month": "Jul-25",
+    "value": 244356917,
+    "quantity": 7202082,
+    "aup": 33.9286
+  },
+  {
+    "product": "Crude Oil",
+    "trade": "EXPORTS",
+    "month": "Aug-25",
+    "value": 383057260,
+    "quantity": 7255618,
+    "aup": 52.7946
+  },
+  {
+    "product": "Crude Oil",
+    "trade": "EXPORTS",
+    "month": "Sep-25",
+    "value": 377865665,
+    "quantity": 5427687,
+    "aup": 69.6182
+  },
+  {
+    "product": "Crude Oil",
+    "trade": "EXPORTS",
+    "month": "Oct-25",
+    "value": 272964786,
+    "quantity": 8417762,
+    "aup": 32.4272
+  },
+  {
+    "product": "Crude Oil",
+    "trade": "EXPORTS",
+    "month": "Nov-25",
+    "value": 235604184,
+    "quantity": 7594575,
+    "aup": 31.0227
+  },
+  {
+    "product": "Crude Oil",
+    "trade": "EXPORTS",
+    "month": "Dec-25",
+    "value": 404075929,
+    "quantity": 7729127,
+    "aup": 52.2796
+  },
+  {
+    "product": "Crude Oil",
+    "trade": "EXPORTS",
+    "month": "Jan-26",
+    "value": 327485843,
+    "quantity": 7685461,
+    "aup": 42.6111
+  },
+  {
+    "product": "Crude Oil",
+    "trade": "EXPORTS",
+    "month": "Feb-26",
+    "value": 292589044,
+    "quantity": 7607642,
+    "aup": 38.4599
+  },
+  {
+    "product": "Crude Oil",
+    "trade": "IMPORTS",
+    "month": "Jan-25",
+    "value": 814264826,
+    "quantity": 10973854,
+    "aup": 74.2004
+  },
+  {
+    "product": "Crude Oil",
+    "trade": "IMPORTS",
+    "month": "Feb-25",
+    "value": 1129861681,
+    "quantity": 11261404,
+    "aup": 100.3304
+  },
+  {
+    "product": "Crude Oil",
+    "trade": "IMPORTS",
+    "month": "Mar-25",
+    "value": 972581526,
+    "quantity": 10298486,
+    "aup": 94.4393
+  },
+  {
+    "product": "Crude Oil",
+    "trade": "IMPORTS",
+    "month": "Apr-25",
+    "value": 1104961684,
+    "quantity": 11646038,
+    "aup": 94.8788
+  },
+  {
+    "product": "Crude Oil",
+    "trade": "IMPORTS",
+    "month": "May-25",
+    "value": 985722280,
+    "quantity": 12602216,
+    "aup": 78.2182
+  },
+  {
+    "product": "Crude Oil",
+    "trade": "IMPORTS",
+    "month": "Jun-25",
+    "value": 1023989463,
+    "quantity": 8861225,
+    "aup": 115.5585
+  },
+  {
+    "product": "Crude Oil",
+    "trade": "IMPORTS",
+    "month": "Jul-25",
+    "value": 1219187630,
+    "quantity": 10716763,
+    "aup": 113.7645
+  },
+  {
+    "product": "Crude Oil",
+    "trade": "IMPORTS",
+    "month": "Aug-25",
+    "value": 967250821,
+    "quantity": 9367745,
+    "aup": 103.2533
+  },
+  {
+    "product": "Crude Oil",
+    "trade": "IMPORTS",
+    "month": "Sep-25",
+    "value": 936058701,
+    "quantity": 8818321,
+    "aup": 106.1493
+  },
+  {
+    "product": "Crude Oil",
+    "trade": "IMPORTS",
+    "month": "Oct-25",
+    "value": 1077784884,
+    "quantity": 11146347,
+    "aup": 96.694
+  },
+  {
+    "product": "Crude Oil",
+    "trade": "IMPORTS",
+    "month": "Nov-25",
+    "value": 945063354,
+    "quantity": 9513734,
+    "aup": 99.3367
+  },
+  {
+    "product": "Crude Oil",
+    "trade": "IMPORTS",
+    "month": "Dec-25",
+    "value": 963121329,
+    "quantity": 10360937,
+    "aup": 92.957
+  },
+  {
+    "product": "Crude Oil",
+    "trade": "IMPORTS",
+    "month": "Jan-26",
+    "value": 1182644730,
+    "quantity": 11992381,
+    "aup": 98.6163
+  },
+  {
+    "product": "Crude Oil",
+    "trade": "IMPORTS",
+    "month": "Feb-26",
+    "value": 821116350,
+    "quantity": 8635423,
+    "aup": 95.087
+  },
+  {
+    "product": "FERTILIZERS",
+    "trade": "EXPORTS",
+    "month": "Jan-25",
+    "value": 396286527,
+    "quantity": 241679728,
+    "aup": 1.6397
+  },
+  {
+    "product": "FERTILIZERS",
+    "trade": "EXPORTS",
+    "month": "Feb-25",
+    "value": 344750770,
+    "quantity": 199473533,
+    "aup": 1.7283
+  },
+  {
+    "product": "FERTILIZERS",
+    "trade": "EXPORTS",
+    "month": "Mar-25",
+    "value": 290117732,
+    "quantity": 161273318,
+    "aup": 1.7989
+  },
+  {
+    "product": "FERTILIZERS",
+    "trade": "EXPORTS",
+    "month": "Apr-25",
+    "value": 216170171,
+    "quantity": 121307895,
+    "aup": 1.782
+  },
+  {
+    "product": "FERTILIZERS",
+    "trade": "EXPORTS",
+    "month": "May-25",
+    "value": 375201734,
+    "quantity": 214300062,
+    "aup": 1.7508
+  },
+  {
+    "product": "FERTILIZERS",
+    "trade": "EXPORTS",
+    "month": "Jun-25",
+    "value": 345391940,
+    "quantity": 208271418,
+    "aup": 1.6584
+  },
+  {
+    "product": "FERTILIZERS",
+    "trade": "EXPORTS",
+    "month": "Jul-25",
+    "value": 321468891,
+    "quantity": 179133629,
+    "aup": 1.7946
+  },
+  {
+    "product": "FERTILIZERS",
+    "trade": "EXPORTS",
+    "month": "Aug-25",
+    "value": 100665975,
+    "quantity": 51457674,
+    "aup": 1.9563
+  },
+  {
+    "product": "FERTILIZERS",
+    "trade": "EXPORTS",
+    "month": "Sep-25",
+    "value": 210285227,
+    "quantity": 112520373,
+    "aup": 1.8689
+  },
+  {
+    "product": "FERTILIZERS",
+    "trade": "EXPORTS",
+    "month": "Oct-25",
+    "value": 265389719,
+    "quantity": 152773092,
+    "aup": 1.7371
+  },
+  {
+    "product": "FERTILIZERS",
+    "trade": "EXPORTS",
+    "month": "Nov-25",
+    "value": 468829086,
+    "quantity": 267508366,
+    "aup": 1.7526
+  },
+  {
+    "product": "FERTILIZERS",
+    "trade": "EXPORTS",
+    "month": "Dec-25",
+    "value": 417505112,
+    "quantity": 257481599,
+    "aup": 1.6215
+  },
+  {
+    "product": "FERTILIZERS",
+    "trade": "EXPORTS",
+    "month": "Jan-26",
+    "value": 352298375,
+    "quantity": 214392886,
+    "aup": 1.6432
+  },
+  {
+    "product": "FERTILIZERS",
+    "trade": "EXPORTS",
+    "month": "Feb-26",
+    "value": 337211747,
+    "quantity": 197216040,
+    "aup": 1.7099
+  },
+  {
+    "product": "FERTILIZERS",
+    "trade": "IMPORTS",
+    "month": "Jan-25",
+    "value": 411634808,
+    "quantity": 318475413,
+    "aup": 1.2925
+  },
+  {
+    "product": "FERTILIZERS",
+    "trade": "IMPORTS",
+    "month": "Feb-25",
+    "value": 232604676,
+    "quantity": 186487099,
+    "aup": 1.2473
+  },
+  {
+    "product": "FERTILIZERS",
+    "trade": "IMPORTS",
+    "month": "Mar-25",
+    "value": 558076632,
+    "quantity": 379938921,
+    "aup": 1.4689
+  },
+  {
+    "product": "FERTILIZERS",
+    "trade": "IMPORTS",
+    "month": "Apr-25",
+    "value": 470121461,
+    "quantity": 312839835,
+    "aup": 1.5028
+  },
+  {
+    "product": "FERTILIZERS",
+    "trade": "IMPORTS",
+    "month": "May-25",
+    "value": 530517834,
+    "quantity": 367236135,
+    "aup": 1.4446
+  },
+  {
+    "product": "FERTILIZERS",
+    "trade": "IMPORTS",
+    "month": "Jun-25",
+    "value": 516175274,
+    "quantity": 359146470,
+    "aup": 1.4372
+  },
+  {
+    "product": "FERTILIZERS",
+    "trade": "IMPORTS",
+    "month": "Jul-25",
+    "value": 552489591,
+    "quantity": 392361164,
+    "aup": 1.4081
+  },
+  {
+    "product": "FERTILIZERS",
+    "trade": "IMPORTS",
+    "month": "Aug-25",
+    "value": 689858843,
+    "quantity": 459760612,
+    "aup": 1.5005
+  },
+  {
+    "product": "FERTILIZERS",
+    "trade": "IMPORTS",
+    "month": "Sep-25",
+    "value": 520224607,
+    "quantity": 318129261,
+    "aup": 1.6353
+  },
+  {
+    "product": "FERTILIZERS",
+    "trade": "IMPORTS",
+    "month": "Oct-25",
+    "value": 474096536,
+    "quantity": 306123200,
+    "aup": 1.5487
+  },
+  {
+    "product": "FERTILIZERS",
+    "trade": "IMPORTS",
+    "month": "Nov-25",
+    "value": 389739860,
+    "quantity": 247559118,
+    "aup": 1.5743
+  },
+  {
+    "product": "FERTILIZERS",
+    "trade": "IMPORTS",
+    "month": "Dec-25",
+    "value": 346479978,
+    "quantity": 276328092,
+    "aup": 1.2539
+  },
+  {
+    "product": "FERTILIZERS",
+    "trade": "IMPORTS",
+    "month": "Jan-26",
+    "value": 234056440,
+    "quantity": 165341006,
+    "aup": 1.4156
+  },
+  {
+    "product": "FERTILIZERS",
+    "trade": "IMPORTS",
+    "month": "Feb-26",
+    "value": 303772998,
+    "quantity": 230888892,
+    "aup": 1.3157
+  },
+  {
+    "product": "PALM OIL",
+    "trade": "EXPORTS",
+    "month": "Jan-25",
+    "value": 5474756114,
+    "quantity": 1032535.12,
+    "aup": 5302.2469
+  },
+  {
+    "product": "PALM OIL",
+    "trade": "EXPORTS",
+    "month": "Feb-25",
+    "value": 5344345100,
+    "quantity": 1044192.65,
+    "aup": 5118.16
+  },
+  {
+    "product": "PALM OIL",
+    "trade": "EXPORTS",
+    "month": "Mar-25",
+    "value": 4948761879,
+    "quantity": 983961.47,
+    "aup": 5029.4265
+  },
+  {
+    "product": "PALM OIL",
+    "trade": "EXPORTS",
+    "month": "Apr-25",
+    "value": 4919932912,
+    "quantity": 992335.59,
+    "aup": 4957.9326
+  },
+  {
+    "product": "PALM OIL",
+    "trade": "EXPORTS",
+    "month": "May-25",
+    "value": 5838120911,
+    "quantity": 1256152.1,
+    "aup": 4647.6226
+  },
+  {
+    "product": "PALM OIL",
+    "trade": "EXPORTS",
+    "month": "Jun-25",
+    "value": 5527458685,
+    "quantity": 1273425.26,
+    "aup": 4340.6228
+  },
+  {
+    "product": "PALM OIL",
+    "trade": "EXPORTS",
+    "month": "Jul-25",
+    "value": 5287168634,
+    "quantity": 1222224.4,
+    "aup": 4325.8575
+  },
+  {
+    "product": "PALM OIL",
+    "trade": "EXPORTS",
+    "month": "Aug-25",
+    "value": 5751827498,
+    "quantity": 1312222.06,
+    "aup": 4383.273
+  },
+  {
+    "product": "PALM OIL",
+    "trade": "EXPORTS",
+    "month": "Sep-25",
+    "value": 5614724313,
+    "quantity": 1268799.51,
+    "aup": 4425.2258
+  },
+  {
+    "product": "PALM OIL",
+    "trade": "EXPORTS",
+    "month": "Oct-25",
+    "value": 7307838149,
+    "quantity": 1605880.85,
+    "aup": 4550.6727
+  },
+  {
+    "product": "PALM OIL",
+    "trade": "EXPORTS",
+    "month": "Nov-25",
+    "value": 5223358690,
+    "quantity": 1136310.89,
+    "aup": 4596.769
+  },
+  {
+    "product": "PALM OIL",
+    "trade": "EXPORTS",
+    "month": "Dec-25",
+    "value": 6062643763,
+    "quantity": 1365604.47,
+    "aup": 4439.5313
+  },
+  {
+    "product": "PALM OIL",
+    "trade": "EXPORTS",
+    "month": "Jan-26",
+    "value": 5397379160,
+    "quantity": 1244851.73,
+    "aup": 4335.7607
+  },
+  {
+    "product": "PALM OIL",
+    "trade": "EXPORTS",
+    "month": "Feb-26",
+    "value": 4460324537,
+    "quantity": 1044994.14,
+    "aup": 4268.2771
+  },
+  {
+    "product": "PALM OIL",
+    "trade": "IMPORTS",
+    "month": "Jan-25",
+    "value": 541438858,
+    "quantity": 101219.58,
+    "aup": 5349.1515
+  },
+  {
+    "product": "PALM OIL",
+    "trade": "IMPORTS",
+    "month": "Feb-25",
+    "value": 312995754,
+    "quantity": 64304.77,
+    "aup": 4867.3801
+  },
+  {
+    "product": "PALM OIL",
+    "trade": "IMPORTS",
+    "month": "Mar-25",
+    "value": 661989131,
+    "quantity": 134826.44,
+    "aup": 4909.9356
+  },
+  {
+    "product": "PALM OIL",
+    "trade": "IMPORTS",
+    "month": "Apr-25",
+    "value": 344972246,
+    "quantity": 69418.47,
+    "aup": 4969.4591
+  },
+  {
+    "product": "PALM OIL",
+    "trade": "IMPORTS",
+    "month": "May-25",
+    "value": 351716207,
+    "quantity": 77313.7,
+    "aup": 4549.2091
+  },
+  {
+    "product": "PALM OIL",
+    "trade": "IMPORTS",
+    "month": "Jun-25",
+    "value": 271782306,
+    "quantity": 62865.86,
+    "aup": 4323.2099
+  },
+  {
+    "product": "PALM OIL",
+    "trade": "IMPORTS",
+    "month": "Jul-25",
+    "value": 295838398,
+    "quantity": 69735.42,
+    "aup": 4242.2975
+  },
+  {
+    "product": "PALM OIL",
+    "trade": "IMPORTS",
+    "month": "Aug-25",
+    "value": 288065344,
+    "quantity": 65615.1,
+    "aup": 4390.2297
+  },
+  {
+    "product": "PALM OIL",
+    "trade": "IMPORTS",
+    "month": "Sep-25",
+    "value": 500159915,
+    "quantity": 109358.44,
+    "aup": 4573.5829
+  },
+  {
+    "product": "PALM OIL",
+    "trade": "IMPORTS",
+    "month": "Oct-25",
+    "value": 257982905,
+    "quantity": 51806.01,
+    "aup": 4979.7868
+  },
+  {
+    "product": "PALM OIL",
+    "trade": "IMPORTS",
+    "month": "Nov-25",
+    "value": 126521016,
+    "quantity": 23614.65,
+    "aup": 5357.7343
+  },
+  {
+    "product": "PALM OIL",
+    "trade": "IMPORTS",
+    "month": "Dec-25",
+    "value": 132051992,
+    "quantity": 27237.98,
+    "aup": 4848.084
+  },
+  {
+    "product": "PALM OIL",
+    "trade": "IMPORTS",
+    "month": "Jan-26",
+    "value": 158788897,
+    "quantity": 35695.77,
+    "aup": 4448.3955
+  },
+  {
+    "product": "PALM OIL",
+    "trade": "IMPORTS",
+    "month": "Feb-26",
+    "value": 335113981,
+    "quantity": 78667.73,
+    "aup": 4259.8657
+  },
+  {
+    "product": "RUBBER",
+    "trade": "EXPORTS",
+    "month": "Jan-25",
+    "value": 2552309015,
+    "quantity": 163983494.65,
+    "aup": 15.5644
+  },
+  {
+    "product": "RUBBER",
+    "trade": "EXPORTS",
+    "month": "Feb-25",
+    "value": 2555503261,
+    "quantity": 178032767.86,
+    "aup": 14.3541
+  },
+  {
+    "product": "RUBBER",
+    "trade": "EXPORTS",
+    "month": "Mar-25",
+    "value": 2692281223,
+    "quantity": 181842552.65,
+    "aup": 14.8056
+  },
+  {
+    "product": "RUBBER",
+    "trade": "EXPORTS",
+    "month": "Apr-25",
+    "value": 2311451295,
+    "quantity": 156045800.88,
+    "aup": 14.8126
+  },
+  {
+    "product": "RUBBER",
+    "trade": "EXPORTS",
+    "month": "May-25",
+    "value": 2362861278,
+    "quantity": 167374561.11,
+    "aup": 14.1172
+  },
+  {
+    "product": "RUBBER",
+    "trade": "EXPORTS",
+    "month": "Jun-25",
+    "value": 1934527994,
+    "quantity": 139031956.25,
+    "aup": 13.9143
+  },
+  {
+    "product": "RUBBER",
+    "trade": "EXPORTS",
+    "month": "Jul-25",
+    "value": 2545143261,
+    "quantity": 190809935.33,
+    "aup": 13.3386
+  },
+  {
+    "product": "RUBBER",
+    "trade": "EXPORTS",
+    "month": "Aug-25",
+    "value": 2375883431,
+    "quantity": 174560038.46,
+    "aup": 13.6107
+  },
+  {
+    "product": "RUBBER",
+    "trade": "EXPORTS",
+    "month": "Sep-25",
+    "value": 2152027784,
+    "quantity": 160472121.08,
+    "aup": 13.4106
+  },
+  {
+    "product": "RUBBER",
+    "trade": "EXPORTS",
+    "month": "Oct-25",
+    "value": 2578831023,
+    "quantity": 196511227.68,
+    "aup": 13.1231
+  },
+  {
+    "product": "RUBBER",
+    "trade": "EXPORTS",
+    "month": "Nov-25",
+    "value": 2019509712,
+    "quantity": 155364087.75,
+    "aup": 12.9986
+  },
+  {
+    "product": "RUBBER",
+    "trade": "EXPORTS",
+    "month": "Dec-25",
+    "value": 2328177080,
+    "quantity": 170005974.24,
+    "aup": 13.6947
+  },
+  {
+    "product": "RUBBER",
+    "trade": "EXPORTS",
+    "month": "Jan-26",
+    "value": 2218739715,
+    "quantity": 174426094.5,
+    "aup": 12.7202
+  },
+  {
+    "product": "RUBBER",
+    "trade": "EXPORTS",
+    "month": "Feb-26",
+    "value": 1817282236,
+    "quantity": 144175670.86,
+    "aup": 12.6046
+  },
+  {
+    "product": "RUBBER",
+    "trade": "IMPORTS",
+    "month": "Jan-25",
+    "value": 1702398276,
+    "quantity": 190259025.11,
+    "aup": 8.9478
+  },
+  {
+    "product": "RUBBER",
+    "trade": "IMPORTS",
+    "month": "Feb-25",
+    "value": 1716138983,
+    "quantity": 185015691.87,
+    "aup": 9.2756
+  },
+  {
+    "product": "RUBBER",
+    "trade": "IMPORTS",
+    "month": "Mar-25",
+    "value": 1621661847,
+    "quantity": 168817033.76,
+    "aup": 9.606
+  },
+  {
+    "product": "RUBBER",
+    "trade": "IMPORTS",
+    "month": "Apr-25",
+    "value": 1509709069,
+    "quantity": 156309903.58,
+    "aup": 9.6584
+  },
+  {
+    "product": "RUBBER",
+    "trade": "IMPORTS",
+    "month": "May-25",
+    "value": 1475730230,
+    "quantity": 153992263.11,
+    "aup": 9.5831
+  },
+  {
+    "product": "RUBBER",
+    "trade": "IMPORTS",
+    "month": "Jun-25",
+    "value": 1306829517,
+    "quantity": 146800404.68,
+    "aup": 8.9021
+  },
+  {
+    "product": "RUBBER",
+    "trade": "IMPORTS",
+    "month": "Jul-25",
+    "value": 1440430267,
+    "quantity": 168300730.09,
+    "aup": 8.5587
+  },
+  {
+    "product": "RUBBER",
+    "trade": "IMPORTS",
+    "month": "Aug-25",
+    "value": 1355229672,
+    "quantity": 159520217.28,
+    "aup": 8.4957
+  },
+  {
+    "product": "RUBBER",
+    "trade": "IMPORTS",
+    "month": "Sep-25",
+    "value": 1343023879,
+    "quantity": 158271514.76,
+    "aup": 8.4856
+  },
+  {
+    "product": "RUBBER",
+    "trade": "IMPORTS",
+    "month": "Oct-25",
+    "value": 1404971806,
+    "quantity": 169800689.02,
+    "aup": 8.2742
+  },
+  {
+    "product": "RUBBER",
+    "trade": "IMPORTS",
+    "month": "Nov-25",
+    "value": 1203874103,
+    "quantity": 144304693.26,
+    "aup": 8.3426
+  },
+  {
+    "product": "RUBBER",
+    "trade": "IMPORTS",
+    "month": "Dec-25",
+    "value": 1364918691,
+    "quantity": 175233375.66,
+    "aup": 7.7891
+  },
+  {
+    "product": "RUBBER",
+    "trade": "IMPORTS",
+    "month": "Jan-26",
+    "value": 1590503157,
+    "quantity": 198785070.01,
+    "aup": 8.0011
+  },
+  {
+    "product": "RUBBER",
+    "trade": "IMPORTS",
+    "month": "Feb-26",
+    "value": 1362037639,
+    "quantity": 158152112.48,
+    "aup": 8.6122
+  }
+]
