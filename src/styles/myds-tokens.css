@@ -1,0 +1,56 @@
+/**
+ * Token MYDS — https://design.digital.gov.my/en
+ * Import selepas @govtechmy/myds-style (color, light, dark).
+ */
+
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-display: "Poppins", system-ui, sans-serif;
+
+  --color-bg-washed: rgb(var(--bg-washed));
+  --color-bg-white: rgb(var(--bg-white));
+  --color-bg-white-hover: rgb(var(--bg-white-hover));
+  --color-bg-primary-50: rgb(var(--bg-primary-50));
+  --color-bg-primary-600: rgb(var(--bg-primary-600));
+  --color-bg-danger-50: rgb(var(--bg-danger-50));
+  --color-bg-success-50: rgb(var(--bg-success-50));
+  --color-bg-warning-50: rgb(var(--bg-warning-50));
+
+  --color-txt-black-900: rgb(var(--txt-black-900));
+  --color-txt-black-700: rgb(var(--txt-black-700));
+  --color-txt-black-500: rgb(var(--txt-black-500));
+  --color-txt-primary: rgb(var(--txt-primary));
+  --color-txt-danger: rgb(var(--txt-danger));
+  --color-txt-success: rgb(var(--txt-success));
+  --color-txt-warning: rgb(var(--txt-warning));
+
+  --color-otl-divider: rgb(var(--otl-divider));
+  --color-otl-gray-200: rgb(var(--otl-gray-200));
+  --color-otl-gray-300: rgb(var(--otl-gray-300));
+
+  --color-primary-600: rgb(var(--_primary-600) / 1);
+  --color-danger-600: rgb(var(--_danger-600) / 1);
+  --color-success-700: rgb(var(--_success-700) / 1);
+  --color-warning-700: rgb(var(--_warning-700) / 1);
+
+  --shadow-card: 0px 2px 6px 0px rgb(0 0 0 / 0.05), 0px 6px 24px 0px rgb(0 0 0 / 0.05);
+  --shadow-button: 0px 1px 3px 0px rgb(0 0 0 / 0.07);
+
+  /* Alias lama → MYDS (kurangkan refactor halaman) */
+  --color-cream: rgb(var(--bg-washed));
+  --color-cream-dark: rgb(var(--bg-gray-50));
+  --color-ink: rgb(var(--txt-black-900));
+  --color-ink-muted: rgb(var(--txt-black-700));
+  --color-card: rgb(var(--bg-white));
+  --color-border: rgb(var(--otl-gray-200));
+  --color-border-soft: rgb(var(--otl-divider));
+  --color-category: rgb(var(--txt-black-500));
+  --color-accent-green: rgb(var(--txt-success));
+  --color-brand-600: rgb(var(--txt-primary));
+  --color-brand-700: rgb(var(--_primary-700) / 1);
+  --color-positive: rgb(var(--txt-success));
+  --color-negative: rgb(var(--txt-danger));
+  --color-warning: rgb(var(--txt-warning));
+  --color-header-pill: rgb(var(--bg-gray-50));
+  --color-navy: rgb(var(--_primary-800) / 1);
+}

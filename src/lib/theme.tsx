@@ -20,9 +20,11 @@ function getStoredTheme(): Theme {
 }
 
 function applyTheme(theme: Theme) {
-  document.documentElement.setAttribute('data-theme', theme)
+  const root = document.documentElement
+  root.setAttribute('data-theme', theme)
+  root.classList.toggle('dark', theme === 'dark')
   const meta = document.querySelector('meta[name="theme-color"]')
-  if (meta) meta.setAttribute('content', theme === 'dark' ? '#14161c' : '#f9f8f3')
+  if (meta) meta.setAttribute('content', theme === 'dark' ? '#18181b' : '#f4f4f5')
 }
 
 type ThemeContextValue = {

@@ -1,3 +1,4 @@
+import { Button } from '@govtechmy/myds-react/button'
 import { Calendar, Moon, Sun } from 'lucide-react'
 import { useMemo } from 'react'
 import { useI18n, type Lang } from '../lib/i18n'
@@ -25,28 +26,31 @@ export function HeaderControls() {
         <span>{dateLabel}</span>
       </time>
 
-      <button
+      <Button
         type="button"
-        className="theme-toggle"
+        variant="default-outline"
+        size="medium"
+        iconOnly
         onClick={toggleTheme}
         aria-label={theme === 'light' ? tr('theme.toDark') : tr('theme.toLight')}
         title={theme === 'light' ? tr('theme.toDark') : tr('theme.toLight')}
       >
         {theme === 'light' ? (
-          <Moon className="w-[18px] h-[18px]" strokeWidth={1.75} aria-hidden />
+          <Moon className="size-[18px]" strokeWidth={1.75} aria-hidden />
         ) : (
-          <Sun className="w-[18px] h-[18px]" strokeWidth={1.75} aria-hidden />
+          <Sun className="size-[18px]" strokeWidth={1.75} aria-hidden />
         )}
-      </button>
+      </Button>
 
-      <button
+      <Button
         type="button"
+        variant="primary-outline"
+        size="medium"
         onClick={() => setLang(lang === 'ms' ? 'en' : 'ms')}
-        className="lang-toggle"
         aria-label="Toggle language"
       >
         {lang === 'ms' ? 'English' : 'Bahasa Melayu'}
-      </button>
+      </Button>
     </div>
   )
 }

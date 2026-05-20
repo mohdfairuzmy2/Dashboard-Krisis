@@ -1,7 +1,7 @@
 {
   "name": "pantau-krisis-dashboard",
   "private": true,
-  "version": "1.1.0",
+  "version": "2.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@govtechmy/myds-react": "^1.0.2",
+    "@govtechmy/myds-style": "^1.0.0",
     "@supabase/supabase-js": "^2.106.1",
     "clsx": "^2.1.1",
     "leaflet": "^1.9.4",

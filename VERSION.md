@@ -1,6 +1,32 @@
 # Krisis Bekalan Global: Dashboard Malaysia — Sejarah versi
 
-## Versi semasa: **1.1.0** (`v1.1.0`)
+## Versi semasa: **2.0.0** (`v2.0.0`)
+
+**Kodename:** MYDS  
+**Tarikh snapshot:** 20 Mei 2026  
+**Git tag:** `v2.0.0`  
+**Cawangan arkib:** `archive/v2.0.0-myds`  
+**Reka bentuk:** [Malaysia Government Design System](https://design.digital.gov.my/en)  
+**Pakej:** `@govtechmy/myds-style`, `@govtechmy/myds-react`
+
+### Perubahan utama v2.0.0
+
+- Token warna & tema light/dark MYDS (`color.css`, `light.css`, `dark.css`)
+- Masthead laman rasmi + Skiplink aksesibiliti
+- Butang header (tema, bahasa) — komponen MYDS `Button`
+- Latar kelabu-putih MYDS (`bg-washed`), kad `shadow-card`, radius 8px
+- Alias CSS lama (`--color-ink`, dll.) dipetakan ke token MYDS
+
+### Revert ke gaya editorial (v1.1.0)
+
+```bash
+git checkout v1.1.0
+# atau: git checkout -b restore-v1.1.0 v1.1.0
+```
+
+---
+
+## Versi terdahulu: **1.1.0** (`v1.1.0`)
 
 **Kodename:** MAS Editorial · Full  
 **Tarikh snapshot:** 20 Mei 2026  
@@ -62,7 +88,10 @@ git checkout main
 ### Cipta cawangan baru daripada snapshot (disyorkan untuk eksperimen)
 
 ```bash
-# Dari v1.1.0 (versi penuh semasa)
+# Dari v2.0.0 (MYDS — versi semasa)
+git checkout -b restore-v2.0.0 v2.0.0
+
+# Dari v1.1.0 (MAS Editorial penuh, pra-MYDS)
 git checkout -b restore-v1.1.0 v1.1.0
 
 # Dari v1.0.0 (rilis editorial asal)
