@@ -17,6 +17,7 @@ import { CPI_CATEGORIES } from '../lib/types'
 import { formatPct } from '../lib/format'
 import { ChartCard } from '../components/ChartCard'
 import { KpiCard } from '../components/KpiCard'
+import { PageSources } from '../components/PageSources'
 import { SectionHeader } from '../components/SectionHeader'
 import { usePageMeta } from '../lib/pageMeta'
 import { useI18n } from '../lib/i18n'
@@ -101,6 +102,14 @@ export function CPI() {
           </ResponsiveContainer>
         </ChartCard>
       </div>
+
+      <p className="mt-6 text-sm text-[var(--color-ink-muted)] glass-card p-4">
+        {lang === 'ms'
+          ? 'Harga runcit terperinci mengikut negeri/daerah tersedia melalui OpenDOSM PriceCatcher — pautan di bawah.'
+          : 'Granular grocery prices by state/district are available via OpenDOSM PriceCatcher — see links below.'}
+      </p>
+
+      <PageSources page="cpi" officialPath="/cpi" />
     </div>
   )
 }

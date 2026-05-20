@@ -20,6 +20,12 @@ export function formatPct(value: number | null | undefined, signed = true): stri
   return `${prefix}${value.toFixed(1)}%`
 }
 
+export function formatDeltaRM(delta: number | null | undefined, decimals = 2): string {
+  if (delta == null || Number.isNaN(delta)) return '—'
+  const prefix = delta > 0 ? '+' : delta < 0 ? '−' : ''
+  return `${prefix}RM ${Math.abs(delta).toFixed(decimals)}`
+}
+
 export function formatDate(iso: string, locale: 'ms' | 'en' = 'ms'): string {
   return new Date(iso).toLocaleDateString(locale === 'ms' ? 'ms-MY' : 'en-MY', {
     day: 'numeric',

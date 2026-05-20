@@ -1,8 +1,8 @@
-# Pantau Krisis — Dashboard Bekalan Global Malaysia
+# Krisis Bekalan Global: Dashboard Malaysia
 
 **Versi 1.0.0** (MAS Editorial) · [VERSION.md](./VERSION.md) · [CHANGELOG.md](./CHANGELOG.md)
 
-Dashboard moden untuk memantau kesan krisis bekalan global ke atas Malaysia. Dibina berdasarkan data sebenar daripada [pantaukrisis.gov.my](https://pantaukrisis.gov.my/) (DOSM & Kementerian Ekonomi).
+Dashboard moden untuk memantau kesan krisis bekalan global ke atas Malaysia. Dibina oleh **GovTech Malaysia** berdasarkan data sebenar daripada [pantaukrisis.gov.my](https://pantaukrisis.gov.my/).
 
 ## Ciri-ciri
 

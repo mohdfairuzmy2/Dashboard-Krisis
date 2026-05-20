@@ -1,10 +1,11 @@
 import { Link, Outlet, useLocation } from 'react-router-dom'
 import { ArrowLeft } from 'lucide-react'
 import { useI18n } from '../lib/i18n'
+import { HeaderControls } from './HeaderControls'
 import { SourceFooter } from './SourceFooter'
 
 export function Layout() {
-  const { lang, setLang } = useI18n()
+  const { lang, tr } = useI18n()
   const { pathname } = useLocation()
   const isHome = pathname === '/'
 
@@ -13,16 +14,9 @@ export function Layout() {
       <header className={isHome ? 'site-header site-header--minimal' : 'site-header'}>
         <div className="site-header__inner">
           <Link to="/" className="site-logo">
-            Pantau Krisis
+            {tr('app.name')}
           </Link>
-          <button
-            type="button"
-            onClick={() => setLang(lang === 'ms' ? 'en' : 'ms')}
-            className="lang-toggle"
-            aria-label="Toggle language"
-          >
-            {lang === 'ms' ? 'English' : 'Bahasa Melayu'}
-          </button>
+          <HeaderControls />
         </div>
       </header>
 
@@ -36,7 +30,9 @@ export function Layout() {
           </div>
         )}
         {isHome ? (
-          <Outlet />
+          <div className="page-shell page-shell--home">
+            <Outlet />
+          </div>
         ) : (
           <div className="section-container">
             <Outlet />
@@ -44,7 +40,7 @@ export function Layout() {
         )}
       </main>
 
-      {!isHome && <SourceFooter />}
+      <SourceFooter />
     </div>
   )
 }

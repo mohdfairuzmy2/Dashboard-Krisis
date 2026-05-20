@@ -11,7 +11,7 @@ export function DashboardIllustration({ id }: Props) {
           <path d="M80 160V90h24l14-28h40l14 28h24v70H80z" fill="#c45c3e" opacity="0.9" />
           <rect x="108" y="62" width="44" height="36" rx="4" fill="#1e3a5f" />
           <rect x="200" y="100" width="72" height="48" rx="6" fill="#fff" stroke="#8b7355" strokeWidth="2" />
-          <text x="216" y="130" fontSize="14" fill="#8b7355" fontFamily="system-ui">RM</text>
+          <text x="216" y="130" fontSize="14" fill="#8b7355" fontFamily="Inter, system-ui, sans-serif">RM</text>
           <path d="M230 145h40" stroke="#1a4d3e" strokeWidth="3" strokeLinecap="round" />
           <circle cx="248" cy="118" r="18" fill="#f5c842" opacity="0.8" />
         </svg>
@@ -33,7 +33,7 @@ export function DashboardIllustration({ id }: Props) {
           <ellipse cx="120" cy="125" rx="48" ry="62" fill="#2d5a87" />
           <rect x="175" y="55" width="110" height="70" rx="4" fill="#fff" stroke="#8b7355" strokeWidth="1.5" />
           <polyline points="185,105 205,75 225,90 245,55 265,80" fill="none" stroke="#c45c3e" strokeWidth="2.5" />
-          <text x="188" y="72" fontSize="11" fill="#8b7355" fontFamily="system-ui">Brent</text>
+          <text x="188" y="72" fontSize="11" fill="#8b7355" fontFamily="Inter, system-ui, sans-serif">Brent</text>
         </svg>
       )
     case 'gdp':
@@ -45,18 +45,18 @@ export function DashboardIllustration({ id }: Props) {
           <rect x="205" y="45" width="35" height="115" fill="#1e3a5f" />
           <path d="M60 160h200" stroke="#8b7355" strokeWidth="2" />
           <rect x="230" y="100" width="50" height="35" rx="4" fill="#f5ebe0" stroke="#8b7355" />
-          <text x="238" y="122" fontSize="12" fill="#1a4d3e" fontFamily="system-ui">%</text>
+          <text x="238" y="122" fontSize="12" fill="#1a4d3e" fontFamily="Inter, system-ui, sans-serif">%</text>
         </svg>
       )
     case 'market':
       return (
         <svg viewBox="0 0 320 200" className="w-full h-full" aria-hidden>
           <circle cx="160" cy="100" r="55" fill="none" stroke="#8b7355" strokeWidth="2" strokeDasharray="6 4" />
-          <text x="118" y="108" fontSize="28" fill="#1e3a5f" fontFamily="Georgia, serif">$</text>
-          <text x="175" y="95" fontSize="22" fill="#1a4d3e" fontFamily="Georgia, serif">€</text>
-          <text x="155" y="130" fontSize="18" fill="#c45c3e" fontFamily="Georgia, serif">¥</text>
+          <text x="118" y="108" fontSize="28" fill="#1e3a5f" fontFamily="Poppins, system-ui, sans-serif">$</text>
+          <text x="175" y="95" fontSize="22" fill="#1a4d3e" fontFamily="Poppins, system-ui, sans-serif">€</text>
+          <text x="155" y="130" fontSize="18" fill="#c45c3e" fontFamily="Poppins, system-ui, sans-serif">¥</text>
           <rect x="200" y="55" width="80" height="50" rx="6" fill="#fff" stroke="#8b7355" />
-          <text x="212" y="88" fontSize="13" fill="#1e3a5f" fontFamily="system-ui">MYR</text>
+          <text x="212" y="88" fontSize="13" fill="#1e3a5f" fontFamily="Inter, system-ui, sans-serif">MYR</text>
         </svg>
       )
     case 'commodities':
@@ -74,7 +74,7 @@ export function DashboardIllustration({ id }: Props) {
       return (
         <svg viewBox="0 0 320 200" className="w-full h-full" aria-hidden>
           <circle cx="90" cy="100" r="28" fill="#c45c3e" opacity="0.85" />
-          <text x="78" y="106" fontSize="14" fill="#fff" fontFamily="system-ui">MY</text>
+          <text x="78" y="106" fontSize="14" fill="#fff" fontFamily="Inter, system-ui, sans-serif">MY</text>
           <circle cx="230" cy="80" r="24" fill="#1e3a5f" opacity="0.8" />
           <circle cx="250" cy="130" r="22" fill="#1a4d3e" opacity="0.8" />
           <path d="M118 95 Q175 70 205 88" fill="none" stroke="#8b7355" strokeWidth="2" markerEnd="url(#arrow)" />

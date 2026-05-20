@@ -14,6 +14,7 @@ import type { CommodityTradeRow } from '../lib/types'
 import { PRODUCT_LABELS } from '../lib/types'
 import { formatBn } from '../lib/format'
 import { ChartCard } from '../components/ChartCard'
+import { PageSources } from '../components/PageSources'
 import { SectionHeader } from '../components/SectionHeader'
 import { usePageMeta } from '../lib/pageMeta'
 import { useI18n } from '../lib/i18n'
@@ -94,6 +95,8 @@ export function Commodities() {
           </AreaChart>
         </ResponsiveContainer>
       </ChartCard>
+
+      <PageSources page="commodities" officialPath="/commodities" />
     </div>
   )
 }

@@ -9,6 +9,10 @@ import {
   ResponsiveContainer,
 } from 'recharts'
 import { fetchGeopolitical, fetchSentiment } from '../lib/api'
+import { fetchRssFeed, fetchRtmTaklimat } from '../lib/api-extended'
+import type { RssItem, RtmItem } from '../lib/types-extended'
+import { PageSources } from '../components/PageSources'
+import { asRecommendations, asTrendBlocks } from '../lib/geoAnalysis'
 import type { DailySentiment, GeopoliticalAnalysis } from '../lib/types'
 import { riskColor, formatDate } from '../lib/format'
 import { ChartCard } from '../components/ChartCard'
@@ -22,12 +26,18 @@ export function News() {
   const { category } = usePageMeta()
   const [sentiment, setSentiment] = useState<DailySentiment[]>([])
   const [geo, setGeo] = useState<GeopoliticalAnalysis | null>(null)
+  const [rss, setRss] = useState<RssItem[]>([])
+  const [videos, setVideos] = useState<RtmItem[]>([])
 
   useEffect(() => {
-    Promise.all([fetchSentiment(30), fetchGeopolitical()]).then(([s, g]) => {
-      setSentiment(s.reverse())
-      setGeo(g)
-    })
+    Promise.all([fetchSentiment(30), fetchGeopolitical(), fetchRssFeed(), fetchRtmTaklimat()]).then(
+      ([s, g, items, rtm]) => {
+        setSentiment(s.reverse())
+        setGeo(g)
+        setRss(items.slice(0, 10))
+        setVideos(rtm.slice(0, 6))
+      },
+    )
   }, [])
 
   const latest = sentiment.at(-1)
@@ -80,24 +90,26 @@ export function News() {
             <div className={`inline-flex px-2.5 py-1 rounded-full text-xs font-bold border mb-3 ${riskColor(geo.riskLevel ?? 'MODERATE')}`}>
               {geo.riskTitle ?? geo.riskLevel}
             </div>
-            {geo.whatIsHappening && (
+            {asTrendBlocks(geo.whatIsHappening).length > 0 && (
               <div className="mb-4">
                 <h3 className="text-xs font-bold uppercase text-slate-500 mb-1">
                   {lang === 'ms' ? 'Apa yang berlaku' : 'What is happening'}
                 </h3>
-                <p className="text-sm text-slate-700 leading-relaxed">{geo.whatIsHappening}</p>
+                <p className="text-sm text-slate-700 leading-relaxed">
+                  {asTrendBlocks(geo.whatIsHappening)[0]?.detail}
+                </p>
               </div>
             )}
-            {geo.recommendations && geo.recommendations.length > 0 && (
+            {asRecommendations(geo.recommendations).length > 0 && (
               <div>
                 <h3 className="text-xs font-bold uppercase text-slate-500 mb-2">
                   {lang === 'ms' ? 'Cadangan' : 'Recommendations'}
                 </h3>
                 <ul className="space-y-2">
-                  {geo.recommendations.slice(0, 4).map((r, i) => (
-                    <li key={i} className="text-sm text-slate-600 flex gap-2">
+                  {asRecommendations(geo.recommendations).slice(0, 4).map((r) => (
+                    <li key={r.title} className="text-sm text-slate-600 flex gap-2">
                       <span className="text-[var(--color-accent-green)] font-bold">•</span>
-                      {r}
+                      {r.title || r.detail}
                     </li>
                   ))}
                 </ul>
@@ -132,6 +144,38 @@ export function News() {
         </ChartCard>
       )}
 
+      <div className="grid lg:grid-cols-2 gap-4 mb-8">
+        <div className="glass-card p-5">
+          <h3 className="font-display font-semibold mb-4">
+            {lang === 'ms' ? 'Sorotan media' : 'Media pickup'}
+          </h3>
+          <ul className="space-y-3">
+            {rss.map((item) => (
+              <li key={item.link}>
+                <a href={item.link} target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-[var(--color-accent-green)] hover:underline">
+                  {item.title}
+                </a>
+                <p className="text-xs text-[var(--color-ink-muted)]">{item.source}</p>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="glass-card p-5">
+          <h3 className="font-display font-semibold mb-4">
+            {lang === 'ms' ? 'Taklimat media (RTM)' : 'Media briefings (RTM)'}
+          </h3>
+          <ul className="space-y-3">
+            {videos.map((v) => (
+              <li key={v.link}>
+                <a href={v.link} target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-[var(--color-accent-green)] hover:underline">
+                  {v.title}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+
       <div className="mt-4 flex flex-wrap gap-2">
         {sentiment.slice(-7).map((s) => (
           <span
@@ -143,6 +187,8 @@ export function News() {
           </span>
         ))}
       </div>
+
+      <PageSources page="news" officialPath="/news" />
     </div>
   )
 }

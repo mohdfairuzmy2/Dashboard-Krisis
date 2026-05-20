@@ -4,6 +4,10 @@ import { createElement } from 'react'
 export type Lang = 'ms' | 'en'
 
 const translations: Record<string, { en: string; ms: string }> = {
+  'app.name': {
+    en: 'Global Supply Crisis: Malaysia Dashboard',
+    ms: 'Krisis Bekalan Global: Dashboard Malaysia',
+  },
   'nav.overview.label': { en: 'Overview', ms: 'Gambaran' },
   'nav.overview.desc': {
     en: 'Executive summary of crisis indicators',
@@ -27,6 +31,24 @@ const translations: Record<string, { en: string; ms: string }> = {
   'nav.map.desc': { en: 'Global trade partner distribution', ms: 'Taburan rakan dagangan global' },
   'nav.news.label': { en: 'News Feed', ms: 'Suapan Berita' },
   'nav.news.desc': { en: 'Live media & geopolitical news', ms: 'Berita media langsung & geopolitik' },
+  'nav.geopolitical.label': { en: 'Geopolitical Risk', ms: 'Risiko Geopolitik' },
+  'nav.geopolitical.desc': { en: 'AI risk analysis & live alerts', ms: 'Analisis risiko AI & amaran langsung' },
+  'nav.ai.label': { en: 'AI Insights', ms: 'Pandangan AI' },
+  'nav.ai.desc': { en: 'Strategic AI summaries', ms: 'Ringkasan strategik AI' },
+  'section.geopolitical.title': {
+    en: 'Geopolitical Risk Monitor',
+    ms: 'Pemantau Risiko Geopolitik',
+  },
+  'section.geopolitical.subtitle': {
+    en: 'AI-powered risk assessment, sentiment tracking and live news headlines',
+    ms: 'Penilaian risiko berkuasa AI, sentimen berita dan tajuk utama langsung',
+  },
+  'section.ai.title': { en: 'AI Strategic Insights', ms: 'Pandangan Strategik AI' },
+  'section.ai.subtitle': {
+    en: 'Automated narrative on supply-chain and geopolitical developments affecting Malaysia',
+    ms: 'Naratif automatik tentang perkembangan rantaian bekalan dan geopolitik yang mempengaruhi Malaysia',
+  },
+  'overview.more': { en: 'Additional dashboards', ms: 'Papan pemuka tambahan' },
   'section.overview.title': { en: 'Executive Overview', ms: 'Gambaran Eksekutif' },
   'section.overview.subtitle': {
     en: 'Real-time KPIs and trade performance summary',
@@ -34,8 +56,41 @@ const translations: Record<string, { en: string; ms: string }> = {
   },
   'section.fuel.title': { en: 'Malaysia Fuel Prices', ms: 'Harga Bahan Api Malaysia' },
   'section.fuel.subtitle': {
-    en: 'BUDI MADANI subsidies, RON95/97/Diesel trends & regional comparison',
-    ms: 'Subsidi BUDI MADANI, trend RON95/97/Diesel & perbandingan serantau',
+    en: 'BUDI MADANI targeted subsidies, RON95/97/Diesel trends, and Sabah/Sarawak analysis',
+    ms: 'Subsidi bersasar BUDI MADANI, trend RON95/97/Diesel, dan analisis Sabah/Sarawak',
+  },
+  'fuel.weekValidity': { en: 'Valid for', ms: 'Sah untuk' },
+  'fuel.updated': { en: 'Updated', ms: 'Dikemas kini' },
+  'fuel.source': { en: 'Source', ms: 'Sumber' },
+  'fuel.budiNote': {
+    en: 'RON95 market float began Oct 2025 under BUDI95 · Prices are set weekly.',
+    ms: 'Apungan pasaran RON95 bermula Okt 2025 di bawah BUDI95 · Harga ditetapkan secara mingguan.',
+  },
+  'fuel.priceComparison': { en: 'Weekly price comparison', ms: 'Perbandingan harga mingguan' },
+  'fuel.product': { en: 'Product', ms: 'Produk' },
+  'fuel.thisWeek': { en: 'This week', ms: 'Minggu ini' },
+  'fuel.prevWeek': { en: 'Previous week', ms: 'Minggu lepas' },
+  'fuel.change': { en: 'Change', ms: 'Perubahan' },
+  'fuel.subsidyGap': { en: 'RON95 subsidy gap', ms: 'Jurang subsidi RON95' },
+  'fuel.subsidyGapDesc': {
+    en: 'Difference between market (unsubsidised) and pump price under BUDI MADANI.',
+    ms: 'Perbezaan antara harga pasaran (tanpa subsidi) dan harga pam di bawah BUDI MADANI.',
+  },
+  'fuel.dieselCompare': {
+    en: 'Diesel: Peninsular Malaysia vs Sabah & Sarawak (RM/L)',
+    ms: 'Diesel: Semenanjung Malaysia vs Sabah & Sarawak (RM/L)',
+  },
+  'fuel.historicalRange': { en: 'Historical range (weekly series)', ms: 'Julat sejarah (siri mingguan)' },
+  'fuel.min': { en: 'Low', ms: 'Terendah' },
+  'fuel.max': { en: 'High', ms: 'Tertinggi' },
+  'fuel.brent': { en: 'Brent crude (spot)', ms: 'Brent mentah (spot)' },
+  'fuel.officialLink': { en: 'View on pantaukrisis.gov.my', ms: 'Lihat di pantaukrisis.gov.my' },
+  'fuel.ron95Budi': { en: 'BUDI95 (RON95)', ms: 'BUDI95 (RON95)' },
+  'fuel.dieselEast': { en: 'Diesel (Sabah & Sarawak)', ms: 'Diesel (Sabah & Sarawak)' },
+  'fuel.marketRon95': { en: 'Market RON95 (unsubsidised)', ms: 'Pasaran RON95 (tanpa subsidi)' },
+  'fuel.asiaNote': {
+    en: 'Prices converted to MYR via live FX; Malaysia uses official MYR prices from data.gov.my.',
+    ms: 'Harga ditukar kepada MYR melalui FX langsung; Malaysia menggunakan harga rasmi MYR daripada data.gov.my.',
   },
   'section.cpi.title': { en: 'Consumer Price Index (CPI)', ms: 'Indeks Harga Pengguna (IHP)' },
   'section.cpi.subtitle': {
@@ -85,9 +140,13 @@ const translations: Record<string, { en: string; ms: string }> = {
     en: 'Crisis dashboards, _for every Malaysian_.',
     ms: 'Papan pemuka krisis, _untuk semua rakyat_.',
   },
+  'hero.subtitle': {
+    en: 'Monitoring the Impact of the Global Supply Crisis on Malaysia',
+    ms: 'Memantau Kesan Krisis Bekalan Global ke atas Malaysia',
+  },
   'hero.lead': {
-    en: 'Nine dashboards on fuel, inflation, trade, energy and the economy — built from official DOSM and Ministry of Economy data. Each card links to live charts you can understand at a glance.',
-    ms: 'Sembilan papan pemuka tentang bahan api, inflasi, dagangan, tenaga dan ekonomi — dibina daripada data rasmi DOSM dan Kementerian Ekonomi. Setiap kad membawa anda ke carta langsung yang mudah difahami.',
+    en: 'A near real-time dashboard that helps government, businesses and the public track how global energy prices, trade disruptions and supply chain pressures may affect Malaysia\'s economy, fuel prices and cost of living.\n\nUpdated regularly to support early action, supply stability and informed decision-making during periods of global uncertainty. Nine dashboards on fuel, inflation, trade, energy and the economy — built by GovTech Malaysia from official open data. Each card links to live charts you can understand at a glance.',
+    ms: 'Papan pemuka hampir masa nyata yang membantu kerajaan, perniagaan dan orang awam memantau bagaimana harga tenaga global, gangguan dagangan dan tekanan rantaian bekalan boleh mempengaruhi ekonomi Malaysia, harga bahan api dan kos sara hidup.\n\nDikemas kini secara berkala untuk menyokong tindakan awal, kestabilan bekalan dan membuat keputusan bermaklumat semasa ketidakpastian global. Sembilan papan pemuka tentang bahan api, inflasi, dagangan, tenaga dan ekonomi — dibina oleh GovTech Malaysia daripada data terbuka rasmi. Setiap kad membawa anda ke carta langsung yang mudah difahami.',
   },
   'hero.stat.dashboards': { en: 'dashboards', ms: 'papan pemuka' },
   'hero.stat.sources': { en: 'official sources', ms: 'sumber rasmi' },
@@ -142,8 +201,16 @@ const translations: Record<string, { en: string; ms: string }> = {
     ms: 'Memantau kesan krisis bekalan global ke atas Malaysia',
   },
   'app.dataAsOf': { en: 'Data as of', ms: 'Data setakat' },
-  'app.source': { en: 'Source', ms: 'Sumber' },
+  'app.source': { en: 'Sources', ms: 'Sumber' },
+  'app.source.desc': {
+    en: 'Official data providers referenced across this dashboard.',
+    ms: 'Penyedia data rasmi yang dirujuk dalam papan pemuka ini.',
+  },
   'app.loading': { en: 'Loading data…', ms: 'Memuatkan data…' },
+  'theme.toDark': { en: 'Switch to dark mode', ms: 'Tukar ke mod gelap' },
+  'theme.toLight': { en: 'Switch to light mode', ms: 'Tukar ke mod cerah' },
+  'card.aiBadge': { en: 'AI insight', ms: 'Pandangan AI' },
+  'card.aiLoading': { en: 'Analysing latest data…', ms: 'Menganalisis data terkini…' },
   'app.error': { en: 'Unable to load data', ms: 'Tidak dapat memuatkan data' },
   'kpi.headlineCpi': { en: 'Headline CPI (YoY)', ms: 'IHP Utama (YoY)' },
   'kpi.unemployment': { en: 'Unemployment Rate', ms: 'Kadar Pengangguran' },

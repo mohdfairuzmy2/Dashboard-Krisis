@@ -3,6 +3,7 @@ import { MapContainer, TileLayer, CircleMarker, Popup, useMap } from 'react-leaf
 import { getTradePartners, loadStatic } from '../lib/api'
 import type { TradePartner } from '../lib/types'
 import { formatBn } from '../lib/format'
+import { PageSources } from '../components/PageSources'
 import { SectionHeader } from '../components/SectionHeader'
 import { usePageMeta } from '../lib/pageMeta'
 import { useI18n } from '../lib/i18n'
@@ -123,6 +124,8 @@ export function MapPage() {
           </div>
         ))}
       </div>
+
+      <PageSources page="map" officialPath="/map" />
     </div>
   )
 }

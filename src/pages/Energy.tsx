@@ -1,6 +1,8 @@
 import { useEffect, useState, useMemo } from 'react'
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from 'recharts'
-import { fetchFuelMalaysia, loadStatic } from '../lib/api'
+import { loadStatic } from '../lib/api'
+import { fetchOilPrices } from '../lib/api-extended'
+import { PageSources } from '../components/PageSources'
 import type { MarketPoint } from '../lib/types'
 import { formatUSD } from '../lib/format'
 import { ChartCard } from '../components/ChartCard'
@@ -14,16 +16,17 @@ export function Energy() {
   const { category } = usePageMeta()
   const [market, setMarket] = useState<MarketPoint[]>([])
   const [brentLatest, setBrentLatest] = useState<number | null>(null)
+  const [wtiLatest, setWtiLatest] = useState<number | null>(null)
 
   useEffect(() => {
-    Promise.all([
-      loadStatic<MarketPoint[]>('/data/market-timeseries.json'),
-      fetchFuelMalaysia(),
-    ]).then(([m, fuel]) => {
-      setMarket(m)
-      const last = [...m].reverse().find((d) => d.brent != null)
-      setBrentLatest(last?.brent ?? fuel.brentUSD ?? null)
-    })
+    Promise.all([loadStatic<MarketPoint[]>('/data/market-timeseries.json'), fetchOilPrices()]).then(
+      ([m, oil]) => {
+        setMarket(m)
+        const last = [...m].reverse().find((d) => d.brent != null)
+        setBrentLatest(last?.brent ?? oil.brent ?? null)
+        setWtiLatest(oil.wti ?? [...m].reverse().find((d) => d.wti != null)?.wti ?? null)
+      },
+    )
   }, [])
 
   const energySeries = useMemo(
@@ -39,15 +42,13 @@ export function Energy() {
     [market],
   )
 
-  const wtiLatest = [...market].reverse().find((d) => d.wti != null)?.wti
-
   return (
     <div>
       <SectionHeader category={category} title={tr('section.energy.title')} subtitle={tr('section.energy.subtitle')} />
 
       <div className="grid grid-cols-2 gap-3 mb-8 max-w-lg">
         <KpiCard label="Brent" value={formatUSD(brentLatest)} />
-        <KpiCard label="WTI" value={formatUSD(wtiLatest ?? null)} />
+        <KpiCard label="WTI" value={formatUSD(wtiLatest)} />
       </div>
 
       <ChartCard
@@ -72,6 +73,8 @@ export function Energy() {
           ? 'Harga spot petroleum diperoleh daripada EIA (domain awam). Perubahan harga global mempengaruhi kos subsidi bahan api Malaysia.'
           : 'Petroleum spot prices sourced from EIA (public domain). Global price changes affect Malaysia fuel subsidy costs.'}
       </p>
+
+      <PageSources page="energy" officialPath="/global-commodities" />
     </div>
   )
 }

@@ -28,26 +28,35 @@ export type DosmData = {
   }
 }
 
+export type FuelPricePoint = {
+  date: string
+  ron95: number
+  ron97: number
+  dieselEastMY: number
+  dieselPeninsular: number
+  ron95Unsubsidised: number | null
+}
+
 export type FuelMalaysia = {
-  latest: {
-    date: string
-    ron95: number
-    ron97: number
-    dieselEastMY: number
-    dieselPeninsular: number
-    ron95Unsubsidised: number
+  prev?: FuelPricePoint
+  latest: FuelPricePoint & { ron95Unsubsidised: number }
+  prices: FuelPricePoint[]
+  ranges?: {
+    ron95: { max: number; min: number; current: number }
+    ron97: { max: number; min: number; current: number }
+    ron95Unsub: { max: number; min: number; current: number }
+    dieselEastMY: { max: number; min: number; current: number }
+    dieselPeninsular: { max: number; min: number; current: number }
   }
-  prices: {
-    date: string
-    ron95: number
-    ron97: number
-    dieselEastMY: number
-    dieselPeninsular: number
-    ron95Unsubsidised: number | null
-  }[]
+  source?: string
+  changes?: {
+    ron97Change?: number
+    dieselChange?: number
+    ron95UnsubChange?: number
+  }
   brentUSD?: number
   fetchedAt?: string
-  weekValidity?: string
+  weekValidity?: { from: string; to: string } | string
 }
 
 export type RegionalFuel = {
@@ -94,13 +103,59 @@ export type CommodityTradeRow = {
   aup: number
 }
 
+export type GeoTrendBlock = {
+  title: string
+  trend?: string
+  detail: string
+}
+
+export type GeoIssueBlock = {
+  title: string
+  detail: string
+  severity?: string
+}
+
+export type GeoRecommendation = {
+  title: string
+  detail: string
+  impact?: string
+  timeline?: string
+}
+
+export type GeoEvent = {
+  date: string
+  desc: string
+  link?: string
+  title?: string
+  impact?: string
+  source?: string
+  sentiment?: string
+}
+
+export type GeoTradeData = {
+  dataYear?: string
+  totalExportsRM?: number
+  totalImportsRM?: number
+  tradeBalanceRM?: number
+  vulnerabilityNote?: string
+  dailyImportBarrels?: number
+  oilPriceSensitivity?: string
+  importDependencyRatio?: number
+  supplyDisruptionRiskPct?: number
+  oilPriceSensitivityDetail?: string
+}
+
 export type GeopoliticalAnalysis = {
   riskLevel?: string
   riskTitle?: string
-  whatIsHappening?: string
-  whatIsWrong?: string
-  recommendations?: string[]
-  events?: { date: string; desc: string; link?: string }[]
+  whatIsHappening?: string | GeoTrendBlock[]
+  whatIsWrong?: string | GeoIssueBlock[]
+  recommendations?: string[] | GeoRecommendation[]
+  events?: GeoEvent[]
+  tradeData?: GeoTradeData
+  timelineSummary?: string
+  headlineCount?: number
+  generatedAt?: string
 }
 
 export const CPI_CATEGORIES: Record<string, { en: string; ms: string }> = {

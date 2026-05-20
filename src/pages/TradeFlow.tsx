@@ -3,6 +3,7 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContaine
 import { getTradePartners, loadStatic } from '../lib/api'
 import type { TradePartner } from '../lib/types'
 import { ChartCard } from '../components/ChartCard'
+import { PageSources } from '../components/PageSources'
 import { SectionHeader } from '../components/SectionHeader'
 import { usePageMeta } from '../lib/pageMeta'
 import { useI18n } from '../lib/i18n'
@@ -76,6 +77,8 @@ export function TradeFlow() {
           </BarChart>
         </ResponsiveContainer>
       </ChartCard>
+
+      <PageSources page="tradeflow" officialPath="/tradeflow" />
     </div>
   )
 }

@@ -12,7 +12,7 @@ export function ChartCard({ title, subtitle, source, children, className = '' }:
   return (
     <div className={`glass-card overflow-hidden ${className}`}>
       <div className="px-5 pt-5 pb-3 border-b border-[var(--color-border-soft)]">
-        <h3 className="font-serif text-lg font-semibold text-[var(--color-ink)]">{title}</h3>
+        <h3 className="font-display text-lg font-semibold text-[var(--color-ink)] tracking-tight">{title}</h3>
         {subtitle && <p className="text-sm text-[var(--color-ink-muted)] mt-1">{subtitle}</p>}
       </div>
       <div className="p-5">{children}</div>

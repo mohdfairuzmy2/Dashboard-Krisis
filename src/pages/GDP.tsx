@@ -16,6 +16,7 @@ import type { DosmData } from '../lib/types'
 import { formatPct } from '../lib/format'
 import { ChartCard } from '../components/ChartCard'
 import { KpiCard } from '../components/KpiCard'
+import { PageSources } from '../components/PageSources'
 import { SectionHeader } from '../components/SectionHeader'
 import { usePageMeta } from '../lib/pageMeta'
 import { useI18n } from '../lib/i18n'
@@ -92,6 +93,8 @@ export function GDP() {
           </LineChart>
         </ResponsiveContainer>
       </ChartCard>
+
+      <PageSources page="gdp" officialPath="/gdp" />
     </div>
   )
 }
