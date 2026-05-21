@@ -1,4 +1,7 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, HashRouter, Routes, Route } from 'react-router-dom'
+
+/** HashRouter pada GitHub Pages — tiada konfigurasi server untuk SPA */
+const Router = import.meta.env.VITE_GH_PAGES === 'true' ? HashRouter : BrowserRouter
 import { I18nProvider } from './lib/i18n'
 import { ThemeProvider } from './lib/theme'
 import { Layout } from './components/Layout'
@@ -19,7 +22,7 @@ export default function App() {
   return (
     <ThemeProvider>
       <I18nProvider>
-        <BrowserRouter>
+        <Router>
         <Routes>
           <Route element={<Layout />}>
             <Route index element={<Overview />} />
@@ -36,7 +39,7 @@ export default function App() {
             <Route path="ai" element={<AiInsights />} />
           </Route>
         </Routes>
-        </BrowserRouter>
+        </Router>
       </I18nProvider>
     </ThemeProvider>
   )
