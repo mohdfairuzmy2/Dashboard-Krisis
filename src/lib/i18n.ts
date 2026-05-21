@@ -211,6 +211,10 @@ const translations: Record<string, { en: string; ms: string }> = {
   'theme.toLight': { en: 'Switch to light mode', ms: 'Tukar ke mod cerah' },
   'card.aiBadge': { en: 'AI insight', ms: 'Pandangan AI' },
   'card.aiLoading': { en: 'Analysing latest data…', ms: 'Menganalisis data terkini…' },
+  'card.aiUnavailable': {
+    en: 'Live summary unavailable. Open the dashboard for full charts.',
+    ms: 'Ringkasan langsung tidak tersedia. Buka papan pemuka untuk carta penuh.',
+  },
   'app.error': { en: 'Unable to load data', ms: 'Tidak dapat memuatkan data' },
   'kpi.headlineCpi': { en: 'Headline CPI (YoY)', ms: 'IHP Utama (YoY)' },
   'kpi.unemployment': { en: 'Unemployment Rate', ms: 'Kadar Pengangguran' },

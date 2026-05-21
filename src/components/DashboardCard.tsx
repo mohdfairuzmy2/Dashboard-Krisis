@@ -40,7 +40,11 @@ export function DashboardCard({ meta, story, loading }: Props) {
               )}
               <p className="dashboard-card__story-text">{story.story}</p>
             </>
-          ) : null}
+          ) : (
+            <p className="dashboard-card__story-text dashboard-card__story-text--muted">
+              {tr('card.aiUnavailable')}
+            </p>
+          )}
         </div>
 
         <span className="dashboard-card__cta">

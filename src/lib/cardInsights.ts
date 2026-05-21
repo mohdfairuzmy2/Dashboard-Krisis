@@ -54,19 +54,9 @@ function lastWith<T extends Record<string, unknown>>(rows: T[], key: keyof T): T
   return [...rows].reverse().find((r) => r[key] != null)
 }
 
-function buildStories(ctx: InsightContext): Record<IllustrationId, CardStory> {
+function buildStories(ctx: InsightContext): Partial<Record<IllustrationId, CardStory>> {
   const { lang } = ctx
-  const stories: Record<IllustrationId, CardStory> = {
-    fuel: { story: '', highlight: '' },
-    cpi: { story: '', highlight: '' },
-    energy: { story: '', highlight: '' },
-    gdp: { story: '', highlight: '' },
-    market: { story: '', highlight: '' },
-    commodities: { story: '', highlight: '' },
-    tradeflow: { story: '', highlight: '' },
-    map: { story: '', highlight: '' },
-    news: { story: '', highlight: '' },
-  }
+  const stories: Partial<Record<IllustrationId, CardStory>> = {}
 
   if (ctx.fuel) {
     const gap = ctx.fuel.marketRon95 - ctx.fuel.ron95
@@ -208,7 +198,15 @@ function buildStories(ctx: InsightContext): Record<IllustrationId, CardStory> {
   return stories
 }
 
-export async function fetchCardStories(lang: Lang): Promise<Record<IllustrationId, CardStory>> {
+async function settle<T>(promise: Promise<T>, fallback: T): Promise<T> {
+  try {
+    return await promise
+  } catch {
+    return fallback
+  }
+}
+
+export async function fetchCardStories(lang: Lang): Promise<Partial<Record<IllustrationId, CardStory>>> {
   const [
     dosm,
     fuelData,
@@ -219,17 +217,17 @@ export async function fetchCardStories(lang: Lang): Promise<Record<IllustrationI
     geo,
     regional,
   ] = await Promise.all([
-    fetchDosmData(),
-    fetchFuelMalaysia(),
-    loadStatic<MarketPoint[]>('/data/market-timeseries.json'),
-    loadStatic<CommodityTradeRow[]>('/data/commodity-trade-monthly.json'),
-    loadStatic<TradePartner[]>('/data/trade-partners.json'),
-    fetchSentiment(1),
-    fetchGeopolitical(),
-    fetchRegionalFuel().catch(() => [] as Awaited<ReturnType<typeof fetchRegionalFuel>>),
+    settle(fetchDosmData(), null as Awaited<ReturnType<typeof fetchDosmData>> | null),
+    settle(fetchFuelMalaysia(), null),
+    settle(loadStatic<MarketPoint[]>('/data/market-timeseries.json'), []),
+    settle(loadStatic<CommodityTradeRow[]>('/data/commodity-trade-monthly.json'), []),
+    settle(loadStatic<TradePartner[]>('/data/trade-partners.json'), []),
+    settle(fetchSentiment(1), []),
+    settle(fetchGeopolitical(), null),
+    settle(fetchRegionalFuel(), [] as Awaited<ReturnType<typeof fetchRegionalFuel>>),
   ])
 
-  const latestCpi = dosm.cpi.overallMonthly.at(-1)
+  const latestCpi = dosm?.cpi.overallMonthly.at(-1)
   const brentRow = lastWith(market, 'brent')
   const wtiRow = lastWith(market, 'wti')
   const fxRow = lastWith(market, 'usdMyr')
@@ -252,31 +250,35 @@ export async function fetchCardStories(lang: Lang): Promise<Record<IllustrationI
 
   return buildStories({
     lang,
-    fuel: {
-      ron95: fuelData.latest.ron95,
-      ron97: fuelData.latest.ron97,
-      marketRon95: fuelData.latest.ron95Unsubsidised,
-      diesel: fuelData.latest.dieselPeninsular,
-      brent: fuelData.brentUSD ?? brentRow?.brent ?? undefined,
-      week:
-        typeof fuelData.weekValidity === 'object' && fuelData.weekValidity
-          ? `${fuelData.weekValidity.from} – ${fuelData.weekValidity.to}`
-          : (fuelData.weekValidity ?? fuelData.latest.date),
-      aseanNote,
-    },
+    fuel: fuelData?.latest
+      ? {
+          ron95: fuelData.latest.ron95,
+          ron97: fuelData.latest.ron97,
+          marketRon95: fuelData.latest.ron95Unsubsidised,
+          diesel: fuelData.latest.dieselPeninsular,
+          brent: fuelData.brentUSD ?? brentRow?.brent ?? undefined,
+          week:
+            typeof fuelData.weekValidity === 'object' && fuelData.weekValidity
+              ? `${fuelData.weekValidity.from} – ${fuelData.weekValidity.to}`
+              : (fuelData.weekValidity ?? fuelData.latest.date),
+          aseanNote,
+        }
+      : undefined,
     cpi: latestCpi
       ? { yoy: latestCpi.yoy, month: latestCpi.month }
       : undefined,
     energy: {
-      brent: brentRow?.brent ?? fuelData.brentUSD ?? undefined,
+      brent: brentRow?.brent ?? fuelData?.brentUSD ?? undefined,
       wti: wtiRow?.wti ?? undefined,
     },
-    gdp: {
-      growth: dosm.gdp.overall,
-      unemployment: dosm.labour.unemploymentRate,
-      ipi: dosm.ipi.overall,
-      period: dosm.gdp.latest,
-    },
+    gdp: dosm
+      ? {
+          growth: dosm.gdp.overall,
+          unemployment: dosm.labour.unemploymentRate,
+          ipi: dosm.ipi.overall,
+          period: dosm.gdp.latest,
+        }
+      : undefined,
     market: {
       usdMyr: fxRow?.usdMyr ?? undefined,
       klci: klciRow?.klci ?? undefined,

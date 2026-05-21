@@ -68,9 +68,17 @@ export async function fetchGeopolitical(): Promise<GeopoliticalAnalysis | null> 
   return (data?.result as GeopoliticalAnalysis) ?? null
 }
 
+/** Resolve path under Vite `base` (e.g. `/Dashboard-Krisis/` on GitHub Pages). */
+export function staticAssetUrl(path: string): string {
+  const clean = path.replace(/^\//, '')
+  const base = import.meta.env.BASE_URL
+  return `${base}${clean}`
+}
+
 export async function loadStatic<T>(path: string): Promise<T> {
-  const res = await fetch(path)
-  if (!res.ok) throw new Error(`Failed to load ${path}`)
+  const url = staticAssetUrl(path)
+  const res = await fetch(url)
+  if (!res.ok) throw new Error(`Failed to load ${url}`)
   return res.json()
 }
 
