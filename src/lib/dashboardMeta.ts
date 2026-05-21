@@ -26,7 +26,7 @@ export const DASHBOARD_CARDS: DashboardMeta[] = [
     descKey: 'card.fuel.desc',
     categoryKey: 'card.fuel.category',
     illustration: 'fuel',
-    panelBg: '#f5ebe0',
+    panelBg: '#f8efe4',
   },
   {
     path: '/cpi',
@@ -34,7 +34,7 @@ export const DASHBOARD_CARDS: DashboardMeta[] = [
     descKey: 'card.cpi.desc',
     categoryKey: 'card.cpi.category',
     illustration: 'cpi',
-    panelBg: '#e8efe6',
+    panelBg: '#eef4eb',
   },
   {
     path: '/global-commodities',
@@ -42,7 +42,7 @@ export const DASHBOARD_CARDS: DashboardMeta[] = [
     descKey: 'card.energy.desc',
     categoryKey: 'card.energy.category',
     illustration: 'energy',
-    panelBg: '#e6ecf5',
+    panelBg: '#e8eef6',
   },
   {
     path: '/gdp',
@@ -50,7 +50,7 @@ export const DASHBOARD_CARDS: DashboardMeta[] = [
     descKey: 'card.gdp.desc',
     categoryKey: 'card.gdp.category',
     illustration: 'gdp',
-    panelBg: '#f0ebe3',
+    panelBg: '#f5efe6',
   },
   {
     path: '/market',
@@ -58,7 +58,7 @@ export const DASHBOARD_CARDS: DashboardMeta[] = [
     descKey: 'card.market.desc',
     categoryKey: 'card.market.category',
     illustration: 'market',
-    panelBg: '#ebe8f0',
+    panelBg: '#f0ecf5',
   },
   {
     path: '/commodities',
@@ -66,7 +66,7 @@ export const DASHBOARD_CARDS: DashboardMeta[] = [
     descKey: 'card.commodities.desc',
     categoryKey: 'card.commodities.category',
     illustration: 'commodities',
-    panelBg: '#e5eef3',
+    panelBg: '#e8f1f6',
   },
   {
     path: '/tradeflow',
@@ -74,7 +74,7 @@ export const DASHBOARD_CARDS: DashboardMeta[] = [
     descKey: 'card.tradeflow.desc',
     categoryKey: 'card.tradeflow.category',
     illustration: 'tradeflow',
-    panelBg: '#f2ebe5',
+    panelBg: '#f6efe8',
   },
   {
     path: '/map',
@@ -82,7 +82,7 @@ export const DASHBOARD_CARDS: DashboardMeta[] = [
     descKey: 'card.map.desc',
     categoryKey: 'card.map.category',
     illustration: 'map',
-    panelBg: '#e3ebe8',
+    panelBg: '#e6f0ec',
   },
   {
     path: '/news',
@@ -90,6 +90,6 @@ export const DASHBOARD_CARDS: DashboardMeta[] = [
     descKey: 'card.news.desc',
     categoryKey: 'card.news.category',
     illustration: 'news',
-    panelBg: '#f5efe8',
+    panelBg: '#faf3ea',
   },
 ]

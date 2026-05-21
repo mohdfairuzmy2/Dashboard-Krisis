@@ -6,6 +6,7 @@
 @theme {
   --font-sans: "Inter", system-ui, sans-serif;
   --font-display: "Poppins", system-ui, sans-serif;
+  --font-editorial: "Source Serif 4", Georgia, "Times New Roman", serif;
 
   --color-bg-washed: rgb(var(--bg-washed));
   --color-bg-white: rgb(var(--bg-white));
