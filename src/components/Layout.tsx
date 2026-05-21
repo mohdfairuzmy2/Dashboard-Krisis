@@ -2,7 +2,6 @@ import { Link, Outlet, useLocation } from 'react-router-dom'
 import { Skiplink } from '@govtechmy/myds-react/skiplink'
 import { ArrowLeft } from 'lucide-react'
 import { useI18n } from '../lib/i18n'
-import { GovMasthead } from './GovMasthead'
 import { HeaderControls } from './HeaderControls'
 import { SourceFooter } from './SourceFooter'
 
@@ -16,7 +15,6 @@ export function Layout() {
       <Skiplink href="#main-content">
         {lang === 'ms' ? 'Langkau ke kandungan utama' : 'Skip to main content'}
       </Skiplink>
-      <GovMasthead />
       <header className={isHome ? 'site-header site-header--minimal' : 'site-header'}>
         <div className="site-header__inner">
           <Link to="/" className="site-logo">
